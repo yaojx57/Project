@@ -9,8 +9,8 @@ from clarity.utils.file_io import read_signal, write_signal
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-t', '--test', action="store_true", help='test mode', default=True)
-parser.add_argument('-i', '--input', type=str, help='input file', required=True)
-parser.add_argument('-o', '--output', type=str, help='out_file')
+parser.add_argument('-i', '--input', type=str, help='input folder', required=True)
+parser.add_argument('-o', '--output', type=str, help='out folder')
 parser.add_argument('')
 # parser.add_argument('')
 args = vars(parser.parse_args())
