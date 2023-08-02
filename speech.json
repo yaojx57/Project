@@ -1,1 +1,96 @@
-{"text": " Wanted, Chief Justice of the Massachusetts Supreme Court, in April the SJC's current leader, Edward Hennessy, reaches the mandatory retirement age of 70, and a successor is expected to be in the Supreme Court.", "segments": [{"id": 0, "seek": 0, "start": 0.0, "end": 5.6000000000000005, "text": " Wanted, Chief Justice of the Massachusetts Supreme Court, in April the SJC's current", "tokens": [50364, 11773, 292, 11, 10068, 10422, 295, 264, 19979, 11032, 7873, 11, 294, 6929, 264, 44883, 34, 311, 2190, 50644], "temperature": 0.0, "avg_logprob": -0.4064868413485013, "compression_ratio": 1.3571428571428572, "no_speech_prob": 0.01393814291805029}, {"id": 1, "seek": 0, "start": 5.6000000000000005, "end": 10.84, "text": " leader, Edward Hennessy, reaches the mandatory retirement age of 70, and a successor is", "tokens": [50644, 5263, 11, 18456, 8651, 1287, 88, 11, 14235, 264, 22173, 15189, 3205, 295, 5285, 11, 293, 257, 31864, 307, 50906], "temperature": 0.0, "avg_logprob": -0.4064868413485013, "compression_ratio": 1.3571428571428572, "no_speech_prob": 0.01393814291805029}, {"id": 2, "seek": 0, "start": 10.84, "end": 11.120000000000001, "text": " expected to be in the Supreme Court.", "tokens": [50906, 5176, 281, 312, 294, 264, 11032, 7873, 13, 50920], "temperature": 0.0, "avg_logprob": -0.4064868413485013, "compression_ratio": 1.3571428571428572, "no_speech_prob": 0.01393814291805029}], "language": "en"}
+{
+    "text": " Wanted, Chief Justice of the Massachusetts Supreme Court, in April the SJC's current leader, Edward Hennessy, reaches the mandatory retirement age of 70, and a successor is expected to be in the Supreme Court.",
+    "segments": [
+        {
+            "id": 0,
+            "seek": 0,
+            "start": 0.0,
+            "end": 5.6000000000000005,
+            "text": " Wanted, Chief Justice of the Massachusetts Supreme Court, in April the SJC's current",
+            "tokens": [
+                50364,
+                11773,
+                292,
+                11,
+                10068,
+                10422,
+                295,
+                264,
+                19979,
+                11032,
+                7873,
+                11,
+                294,
+                6929,
+                264,
+                44883,
+                34,
+                311,
+                2190,
+                50644
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.4064868413485013,
+            "compression_ratio": 1.3571428571428572,
+            "no_speech_prob": 0.01393814291805029
+        },
+        {
+            "id": 1,
+            "seek": 0,
+            "start": 5.6000000000000005,
+            "end": 10.84,
+            "text": " leader, Edward Hennessy, reaches the mandatory retirement age of 70, and a successor is",
+            "tokens": [
+                50644,
+                5263,
+                11,
+                18456,
+                8651,
+                1287,
+                88,
+                11,
+                14235,
+                264,
+                22173,
+                15189,
+                3205,
+                295,
+                5285,
+                11,
+                293,
+                257,
+                31864,
+                307,
+                50906
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.4064868413485013,
+            "compression_ratio": 1.3571428571428572,
+            "no_speech_prob": 0.01393814291805029
+        },
+        {
+            "id": 2,
+            "seek": 0,
+            "start": 10.84,
+            "end": 11.120000000000001,
+            "text": " expected to be in the Supreme Court.",
+            "tokens": [
+                50906,
+                5176,
+                281,
+                312,
+                294,
+                264,
+                11032,
+                7873,
+                13,
+                50920
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.4064868413485013,
+            "compression_ratio": 1.3571428571428572,
+            "no_speech_prob": 0.01393814291805029
+        }
+    ],
+    "language": "en"
+}

@@ -1,1 +1,72 @@
-{"text": " wanted chief justice of the massachusetts supreme court in april the sjc's current leader edward hennessey reaches the mandatory retirement age of 70 and the successor is expected", "segments": [{"id": 0, "seek": 0, "start": 0.0, "end": 6.32, "text": " wanted chief justice of the massachusetts supreme court in april the sjc's current leader edward", "tokens": [50364, 1415, 9588, 6118, 295, 264, 2758, 19681, 27756, 4753, 294, 10992, 388, 264, 20601, 66, 311, 2190, 5263, 1257, 1007, 50680], "temperature": 0.0, "avg_logprob": -0.3474212041715296, "compression_ratio": 1.4094488188976377, "no_speech_prob": 0.01745765656232834}, {"id": 1, "seek": 0, "start": 6.32, "end": 11.44, "text": " hennessey reaches the mandatory retirement age of 70 and the successor is expected", "tokens": [50680, 276, 1857, 7357, 88, 14235, 264, 22173, 15189, 3205, 295, 5285, 293, 264, 31864, 307, 5176, 50936], "temperature": 0.0, "avg_logprob": -0.3474212041715296, "compression_ratio": 1.4094488188976377, "no_speech_prob": 0.01745765656232834}], "language": "en"}
+{
+    "text": " wanted chief justice of the massachusetts supreme court in april the sjc's current leader edward hennessey reaches the mandatory retirement age of 70 and the successor is expected",
+    "segments": [
+        {
+            "id": 0,
+            "seek": 0,
+            "start": 0.0,
+            "end": 6.32,
+            "text": " wanted chief justice of the massachusetts supreme court in april the sjc's current leader edward",
+            "tokens": [
+                50364,
+                1415,
+                9588,
+                6118,
+                295,
+                264,
+                2758,
+                19681,
+                27756,
+                4753,
+                294,
+                10992,
+                388,
+                264,
+                20601,
+                66,
+                311,
+                2190,
+                5263,
+                1257,
+                1007,
+                50680
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.3474212041715296,
+            "compression_ratio": 1.4094488188976377,
+            "no_speech_prob": 0.01745765656232834
+        },
+        {
+            "id": 1,
+            "seek": 0,
+            "start": 6.32,
+            "end": 11.44,
+            "text": " hennessey reaches the mandatory retirement age of 70 and the successor is expected",
+            "tokens": [
+                50680,
+                276,
+                1857,
+                7357,
+                88,
+                14235,
+                264,
+                22173,
+                15189,
+                3205,
+                295,
+                5285,
+                293,
+                264,
+                31864,
+                307,
+                5176,
+                50936
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.3474212041715296,
+            "compression_ratio": 1.4094488188976377,
+            "no_speech_prob": 0.01745765656232834
+        }
+    ],
+    "language": "en"
+}
