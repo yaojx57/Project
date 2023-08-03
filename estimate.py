@@ -7,14 +7,6 @@ from clarity.utils.audiogram import Audiogram
 from clarity.evaluator.msbg.msbg import Ear
 from clarity.utils.file_io import read_signal, write_signal
 
-parser = argparse.ArgumentParser()
-parser.add_argument('-t', '--test', action="store_true", help='test mode', default=True)
-parser.add_argument('-i', '--input', type=str, help='input folder', required=True)
-parser.add_argument('-o', '--output', type=str, help='out folder')
-parser.add_argument('')
-# parser.add_argument('')
-args = vars(parser.parse_args())
-
 
 def get_prompt(test):
     if test:
@@ -70,12 +62,6 @@ def run_msbg(audiogram, input, output):
     if output is not None:
         write_signal(output, out[0], sample_rate)
     return out[0]
-
-# using whisper to 
-def run_whisper():
-    model = whisper.load_model("base")
-    result = model.transcribe("audio.mp3")
-    return result["text"]
 
 
 def check_wer(reference, hypothesis):

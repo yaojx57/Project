@@ -8,7 +8,7 @@ from clarity.utils.file_io import read_signal, write_signal
 
 
 # get input files name 
-def get_files(infile):
+def get_files(signal):
     pass
 
 
@@ -17,20 +17,12 @@ def out_files(infile):
     pass
 
 
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("infile")
-    parser.add_argument("outfile")
-    args = parser.parse_args()
-
+def msbg(input, output):
     sample_rate = 44100  # The sampling rate to use
-
-    files = [f for f in list(args.infile) if isfile(join(args.infile, f))]
 
 
     # Read signal from wav file
-    for i in range()
-    signal = read_signal(args.infile, sample_rate)
+    signal = read_signal(input, sample_rate)
 
     # The audiogram for the listener
     audiogram = Audiogram(
@@ -44,8 +36,14 @@ def main():
     out = ear.process(signal)
 
     # Write the processed signal to a wav file
-    write_signal(args.outfile, out[0], sample_rate)
+    write_signal(output, out[0], sample_rate)
 
 
-if __name__ == "__main__":
-    main()
+def run_msbg():
+    files = get_files()
+    output = out_files()
+    for file in files:
+        msbg(file, output)
+
+
+
