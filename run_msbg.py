@@ -8,13 +8,15 @@ from clarity.utils.file_io import read_signal, write_signal
 
 
 # get input files name 
-def get_files(signal):
-    pass
+def get_file(signal):
+    filename = '../data/clarity_CPC2_data/HA_outputs/train.1/CEC1'+signal+'.wav'
+    return filename
 
 
 # output files generate
-def out_files(infile):
-    pass
+def out_file(signal):
+    filename = '../data/output/train/'+signal+'.wav'
+    return filename
 
 
 def msbg(input, output):
@@ -39,10 +41,10 @@ def msbg(input, output):
     write_signal(output, out[0], sample_rate)
 
 
-def run_msbg():
-    files = get_files()
-    output = out_files()
-    for file in files:
+def run_msbg(signals):
+    for signal in signals:
+        file = get_file(signal)
+        output = out_file(signal)
         msbg(file, output)
 
 
