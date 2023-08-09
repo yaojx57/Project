@@ -34,3 +34,15 @@ class listeners:
 class scene:
     def __init__(self, room_name) -> None:
         pass
+
+
+class result_json:
+    def __init__(self, prompt, signal, response, whisper_signal, whisper_msbg, correctness_resp, correctness_whisper) -> None:
+        self.prompt = prompt
+        self.signal = signal
+        self.response = response
+        self.whisper_signal = whisper_signal
+        self.whisper_msbg = whisper_msbg
+        self.correctness_resp = correctness_resp
+        self.correctness_whisper = correctness_whisper
+    

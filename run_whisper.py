@@ -3,9 +3,9 @@ import whisper
 
 
 # using whisper to 
-def run_whisper():
-    model = whisper.load_model("base")
-    result = model.transcribe("audio.mp3")
+def run_whisper(file, model):
+    # model = whisper.load_model("base")
+    result = model.transcribe(file)
     return result["text"]
 
 

@@ -27,16 +27,16 @@ def read_json(file):
         hits = i['hits']
         listener = i['listener']
         if listener != "L0200":
-            pass
+            continue
         system = i['system']
         if system != "E001":
-            pass
+            continue
         correctness = i['correctness']
         response = i['response']
         volume = i['volume']
         signal = i['signal']
         speech = read_speech(prompt, scene, n_words, hits, listener, system, correctness, response, volume, signal)
-        print(speech)
+        print(speech.__dict__)
         speeches.append(speech)
     
     return speeches
