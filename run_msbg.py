@@ -1,4 +1,8 @@
 import argparse
+import os
+
+from speech_info import listener
+
 from os import listdir
 from os.path import isfile, join
 
@@ -14,12 +18,15 @@ def get_file(signal):
 
 
 # output files generate
-def out_file(signal):
-    filename = '../../data/output/'+signal+'_output.wav'
+def out_file(signal, listener):
+    folder = '../../data/output/'+listener
+    if not os.path.exists(folder):
+        os.makedirs(folder)
+    filename = folder + '/' + signal + '_output.wav'
     return filename
 
 
-def msbg(input, output):
+def msbg(input, output, audiogram):
     sample_rate = 44100  # The sampling rate to use
 
 
@@ -27,10 +34,10 @@ def msbg(input, output):
     signal = read_signal(input, sample_rate)
 
     # The audiogram for the listener
-    audiogram = Audiogram(
-        levels=[40, 40, 45, 50, 55, 60, 65, 70],
-        frequencies=[250, 500, 1000, 2000, 3000, 4000, 6000, 8000],
-    )
+    # audiogram = Audiogram(
+    #     levels=[40, 40, 45, 50, 55, 60, 65, 70],
+    #     frequencies=[250, 500, 1000, 2000, 3000, 4000, 6000, 8000],
+    # )
 
     # Initialize the ear and process the signal
     ear = Ear(equiv_0db_spl=80)
@@ -41,11 +48,13 @@ def msbg(input, output):
     write_signal(output, out[0], sample_rate)
 
 
-def run_msbg(signals):
+def run_msbg(signals, li: listener):
+    listener = li.listener
+    audiogram = li.get_audiogram()
     for signal in signals:
         file = get_file(signal)
-        output = out_file(signal)
-        msbg(file, output)
+        output = out_file(signal, listener)
+        msbg(file, output, audiogram)
         print(file+'transfer msbg success')
 
 

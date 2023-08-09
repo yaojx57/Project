@@ -1,5 +1,5 @@
 import json
-from speech_info import Speech, listeners
+from speech_info import Speech, listener
 
 
 def read_speech(prompt, scene, n_words, hits, listener, system, correctness, response, volume, signal):
@@ -7,17 +7,19 @@ def read_speech(prompt, scene, n_words, hits, listener, system, correctness, res
     return speech
 
 
-def read_listeners(name, cfs, l, r):
+def read_listeners():
+    listeners = []
     with open('json_data/listeners.json') as listener_data:
         json_data = json.loads(listener_data)
+    for k,v in json_data:
+        l = listener(v['name'], v['audiogram_cfs'], v['audiogram_levels_l'], v['audiogram_levels_r'])   
+        listeners.append(l)
+    return listeners
 
-    # listener = listeners(name, cfs, l, r)   
-    return json_data
 
-
-def read_json(file):
+def read_speeches(listener_id):
     speeches = []
-    with open(file) as json_data:
+    with open('json_data/CEC1.train.1.json') as json_data:
         json_list = json.load(json_data)
         json_data.close()
     for i in json_list:
@@ -26,11 +28,11 @@ def read_json(file):
         n_words = i['n_words']
         hits = i['hits']
         listener = i['listener']
-        if listener != "L0200":
+        if listener != listener_id:
             continue
         system = i['system']
-        if system != "E001":
-            continue
+        # if system != "E001":
+        #     continue
         correctness = i['correctness']
         response = i['response']
         volume = i['volume']

@@ -1,13 +1,4 @@
-# "prompt": "i don't want us to apportion blame she said",
-#     "scene": "S08547",
-#     "n_words": 9,
-#     "hits": 4,
-#     "listener": "L0239",
-#     "system": "E001",
-#     "correctness": 44.4444444444,
-#     "response": "i don't want to have to report he said",
-#     "volume": 56,
-#     "signal": "S08547_L0239_E001"
+from clarity.utils.audiogram import Audiogram
 
 class Speech:
     def __init__(self, prompt, scene, n_words, hits, listener, system, correctness, response, volume, signal) -> None:
@@ -23,12 +14,39 @@ class Speech:
         self.signal = signal
 
 
-class listeners:
+class listener:
     def __init__(self, name, audiogram_cfs, audiogram_levels_l, audiogram_levels_r) -> None:
         self.listener = name
         self.freq = audiogram_cfs
         self.level_l = audiogram_levels_l
         self.level_r = audiogram_levels_r
+        self.signals = []
+        self.speeches = []
+    
+    def get_audiogram(self):
+        audiogram = Audiogram(
+
+            #TODO average listener level
+            levels = self.level_l,
+            frequencies = self.freq
+        )
+        return audiogram
+
+
+    def set_speech(self, speeches: list[Speech]):
+        for speech in speeches:
+            self.signals.append(speech.signal)
+        self.speeches = speeches
+    
+
+    def create_signals():
+         
+        pass
+
+
+    @classmethod
+    def avg_level(self):
+        pass
 
 
 class scene:
