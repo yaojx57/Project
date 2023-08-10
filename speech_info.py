@@ -16,7 +16,7 @@ class Speech:
 
 class listener:
     def __init__(self, name, audiogram_cfs, audiogram_levels_l, audiogram_levels_r) -> None:
-        self.listener = name
+        self.name = name
         self.freq = audiogram_cfs
         self.level_l = audiogram_levels_l
         self.level_r = audiogram_levels_r
@@ -55,12 +55,19 @@ class scene:
 
 
 class result_json:
-    def __init__(self, prompt, signal, response, whisper_signal, whisper_msbg, correctness_resp, correctness_whisper) -> None:
-        self.prompt = prompt
+    def __init__(self, signal, prompt, response, whisper_signal, whisper_msbg, correctness_resp, correctness_whisper, score_signal, score_msbg) -> None:
         self.signal = signal
+        
+        self.prompt = prompt
         self.response = response
-        self.whisper_signal = whisper_signal
-        self.whisper_msbg = whisper_msbg
+
+        self.whisper_signal = whisper_signal # using whisper on signal
+        self.whisper_msbg = whisper_msbg # using msbg and whisper on signal
+
         self.correctness_resp = correctness_resp
-        self.correctness_whisper = correctness_whisper
+        self.correctness_whisper = correctness_whisper # difference between prompt and whisper_msbg
+
+        self.score_signal = score_signal # difference between prompt and whisper signal
+        self.score_msbg = score_msbg # difference between response and msbg_whisper
+        
     

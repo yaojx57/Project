@@ -1,0 +1,2063 @@
+{
+    "S08671_L0200_E001": {
+        "prompt": "i am writing a book on the subject",
+        "signal": "S08671_L0200_E001",
+        "response": "i think",
+        "whisper_signal": " \ufffd",
+        "whisper_msbg": " Thank you.",
+        "correctness_resp": 12.5,
+        "correctness_whisper": 0
+    },
+    "S08851_L0200_E001": {
+        "prompt": "why did england fail to exploit the discovery",
+        "signal": "S08851_L0200_E001",
+        "response": "why did he",
+        "whisper_signal": " Trimger 1998 World Mechanical",
+        "whisper_msbg": " Come to www.bnglab.com",
+        "correctness_resp": 25.0,
+        "correctness_whisper": 0
+    },
+    "S08884_L0200_E001": {
+        "prompt": "there is no substitute for personal contact in this work",
+        "signal": "S08884_L0200_E001",
+        "response": "everything in this way",
+        "whisper_signal": " ...",
+        "whisper_msbg": " Music Music Music Music Music",
+        "correctness_resp": 20.0,
+        "correctness_whisper": 0
+    },
+    "S08937_L0200_E001": {
+        "prompt": "i think it's where we ought to be going",
+        "signal": "S08937_L0200_E001",
+        "response": "",
+        "whisper_signal": " ...",
+        "whisper_msbg": " You",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S08958_L0200_E001": {
+        "prompt": "he will talk about us to the cook",
+        "signal": "S08958_L0200_E001",
+        "response": "",
+        "whisper_signal": " You",
+        "whisper_msbg": " You",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S09021_L0200_E001": {
+        "prompt": "water must be soft and very clear",
+        "signal": "S09021_L0200_E001",
+        "response": "",
+        "whisper_signal": " F",
+        "whisper_msbg": " You",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S09240_L0200_E001": {
+        "prompt": "a great big strapping man he was",
+        "signal": "S09240_L0200_E001",
+        "response": "",
+        "whisper_signal": " That's a great good stretch!",
+        "whisper_msbg": " You",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S09242_L0200_E001": {
+        "prompt": "gin was the first alcohol i ever had",
+        "signal": "S09242_L0200_E001",
+        "response": "the first alcohol i ever had",
+        "whisper_signal": " This is the first time I've ever seen this.",
+        "whisper_msbg": " Phoenix",
+        "correctness_resp": 75.0,
+        "correctness_whisper": 0
+    },
+    "S09312_L0200_E001": {
+        "prompt": "how did the car come off the road",
+        "signal": "S09312_L0200_E001",
+        "response": "",
+        "whisper_signal": " Granted on this truth.\"",
+        "whisper_msbg": " From\u638c proceduder. THE END",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S09423_L0200_E001": {
+        "prompt": "i don't have to do anything you tell me",
+        "signal": "S09423_L0200_E001",
+        "response": "",
+        "whisper_signal": " You",
+        "whisper_msbg": " You",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S09468_L0200_E001": {
+        "prompt": "list every kind of diet you remember trying",
+        "signal": "S09468_L0200_E001",
+        "response": "",
+        "whisper_signal": " Don't forget to like and subscribe to show mercy and support me, Cinema Hero.",
+        "whisper_msbg": " \u21d2",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S09702_L0200_E001": {
+        "prompt": "was he one of the three you didn't know",
+        "signal": "S09702_L0200_E001",
+        "response": "was he one of the three you didn't know",
+        "whisper_signal": " We'll see you on the next video.",
+        "whisper_msbg": " But he compassion to you today too.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09039_L0200_E003": {
+        "prompt": "so the last day was going to be a test",
+        "signal": "S09039_L0200_E003",
+        "response": "so the last thing is going to be a test",
+        "whisper_signal": " So the last day was going to be a test.",
+        "whisper_msbg": " So the last blow is going to be a test.",
+        "correctness_resp": 80.0,
+        "correctness_whisper": 0
+    },
+    "S09135_L0200_E003": {
+        "prompt": "how should i measure up what to buy",
+        "signal": "S09135_L0200_E003",
+        "response": "how should i measure up what to buy",
+        "whisper_signal": " How should I measure up what to buy?",
+        "whisper_msbg": " How should I measure up what to buy?",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09545_L0200_E003": {
+        "prompt": "he was a director of the north eastern railway",
+        "signal": "S09545_L0200_E003",
+        "response": "was the director of a northeastern railway",
+        "whisper_signal": " We was a director of the Northeastern Railway.",
+        "whisper_msbg": " He was a director of the Northeastern Railway.",
+        "correctness_resp": 44.4444444444,
+        "correctness_whisper": 0
+    },
+    "S09760_L0200_E003": {
+        "prompt": "i get a laugh out of it",
+        "signal": "S09760_L0200_E003",
+        "response": "i get a laugh out of it",
+        "whisper_signal": " I get a laugh out of it.",
+        "whisper_msbg": " I get a lot out of it.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09791_L0200_E003": {
+        "prompt": "but reality orientation needs to be done with care",
+        "signal": "S09791_L0200_E003",
+        "response": "the reliant orientation is to be done with care",
+        "whisper_signal": " But reality orientation needs to be done with care.",
+        "whisper_msbg": " Reality orientation leads to being a carry.",
+        "correctness_resp": 66.6666666667,
+        "correctness_whisper": 0
+    },
+    "S09889_L0200_E003": {
+        "prompt": "i found a lot of comfort in letter writing",
+        "signal": "S09889_L0200_E003",
+        "response": "i found a lot of comfort in letter writing",
+        "whisper_signal": " I found a lot of comfort in letter writing.",
+        "whisper_msbg": " I found a lot of comfort in letter writing.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09991_L0200_E003": {
+        "prompt": "i must fight the sea with hatred",
+        "signal": "S09991_L0200_E003",
+        "response": "i must fight the sea with hatred",
+        "whisper_signal": " I must fight the sea with hatred.",
+        "whisper_msbg": " I must find the sea with things ready.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09052_L0200_E005": {
+        "prompt": "she had summed up his immediate task in a nutshell",
+        "signal": "S09052_L0200_E005",
+        "response": "summed up in a nutshell",
+        "whisper_signal": " 2. Next, max 3. 10 10 to top 3. MAic 4 is 50 R2.",
+        "whisper_msbg": " by",
+        "correctness_resp": 50.0,
+        "correctness_whisper": 0
+    },
+    "S09150_L0200_E005": {
+        "prompt": "the importance of this level can hardly be exaggerated today",
+        "signal": "S09150_L0200_E005",
+        "response": "",
+        "whisper_signal": " This",
+        "whisper_msbg": "",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S09360_L0200_E005": {
+        "prompt": "for all that once would be enough for her",
+        "signal": "S09360_L0200_E005",
+        "response": "all that once",
+        "whisper_signal": " bakal\u0131m \u043d\u0430",
+        "whisper_msbg": "",
+        "correctness_resp": 33.3333333333,
+        "correctness_whisper": 0
+    },
+    "S09508_L0200_E005": {
+        "prompt": "no i didn't really think you were",
+        "signal": "S09508_L0200_E005",
+        "response": "",
+        "whisper_signal": " I want to get a second chance.",
+        "whisper_msbg": "",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S09544_L0200_E005": {
+        "prompt": "we simply had nothing else to say",
+        "signal": "S09544_L0200_E005",
+        "response": "we simply",
+        "whisper_signal": " We're changing. We're changing. We're changing. We're changing. We're changing. Nothing is ours for sure. We're changing. We changed. We changing. We changed. To show you.",
+        "whisper_msbg": " Thanks for everything, listen the truth is they were drinking from devices for me.",
+        "correctness_resp": 28.5714285714,
+        "correctness_whisper": 0
+    },
+    "S09816_L0200_E005": {
+        "prompt": "i am here because you belong to me",
+        "signal": "S09816_L0200_E005",
+        "response": "",
+        "whisper_signal": " development",
+        "whisper_msbg": "",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S09946_L0200_E005": {
+        "prompt": "my income and his pay packet didn't run to that",
+        "signal": "S09946_L0200_E005",
+        "response": "",
+        "whisper_signal": " Schauen Sie zur fre be's ab, wieder im plaid\u306e\u3067 nichts l\u00e4nger haben. E & C 4 www.doc.ac Physicalwrist www.dcc www.dcc www.ac.ac",
+        "whisper_msbg": "",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S09978_L0200_E005": {
+        "prompt": "we shall look at each of these in turn",
+        "signal": "S09978_L0200_E005",
+        "response": "we shall be",
+        "whisper_signal": " Will you show me if you should street decrease frontline?",
+        "whisper_msbg": "",
+        "correctness_resp": 22.2222222222,
+        "correctness_whisper": 0
+    },
+    "S08569_L0200_E007": {
+        "prompt": "only i remember and nothing can be done",
+        "signal": "S08569_L0200_E007",
+        "response": "only i remember and nothing can be done",
+        "whisper_signal": " Only I remember that nothing can be done.",
+        "whisper_msbg": " I only I remember, and nothing could be done.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08587_L0200_E007": {
+        "prompt": "my first call was met with polite efficiency",
+        "signal": "S08587_L0200_E007",
+        "response": "a larger",
+        "whisper_signal": " My face pool is met with a light efficiency.",
+        "whisper_msbg": " My ego is draining most of his form from aloud.",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S08648_L0200_E007": {
+        "prompt": "it wasn't really that different from the approved school",
+        "signal": "S08648_L0200_E007",
+        "response": "it wasn't really that different from the approved school",
+        "whisper_signal": " It wasn't really that distance and you proved soon.",
+        "whisper_msbg": " It wasn't really that difficult for me to prove to you.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08872_L0200_E007": {
+        "prompt": "i break them in for my dad",
+        "signal": "S08872_L0200_E007",
+        "response": "for my dad",
+        "whisper_signal": " I'll rate them him for my dad.",
+        "whisper_msbg": "",
+        "correctness_resp": 42.8571428571,
+        "correctness_whisper": 0
+    },
+    "S08873_L0200_E007": {
+        "prompt": "no they have gone a bit cool towards her",
+        "signal": "S08873_L0200_E007",
+        "response": "",
+        "whisper_signal": " No. They're gonna be cool to be sad.",
+        "whisper_msbg": " but our line always worked very hard like that.",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S09009_L0200_E007": {
+        "prompt": "needless to say some did survive and prosper",
+        "signal": "S09009_L0200_E007",
+        "response": "needless to say some did survive and prosper",
+        "whisper_signal": " Needless to say, some did survive in prosper.",
+        "whisper_msbg": " Needless to say, some gets a buy in Costa.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09198_L0200_E007": {
+        "prompt": "the only goal came midway through the second half",
+        "signal": "S09198_L0200_E007",
+        "response": "the second half",
+        "whisper_signal": " The only goal can midway through the second half.",
+        "whisper_msbg": " The end of the day will turn midway to the second half.",
+        "correctness_resp": 33.3333333333,
+        "correctness_whisper": 0
+    },
+    "S09722_L0200_E007": {
+        "prompt": "you will also possess a large amount of information",
+        "signal": "S09722_L0200_E007",
+        "response": "he will also possess a large amount of information",
+        "whisper_signal": " You will also possess a large amount of information.",
+        "whisper_msbg": " You've all lost everything. There's a lot of information.",
+        "correctness_resp": 88.8888888889,
+        "correctness_whisper": 0
+    },
+    "S08595_L0200_E009": {
+        "prompt": "there was a white envelope next to it",
+        "signal": "S08595_L0200_E009",
+        "response": "there was a white envelope next to it",
+        "whisper_signal": " There was a white envelope next to it.",
+        "whisper_msbg": " That was it, why 10 for those next to it?",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08662_L0200_E009": {
+        "prompt": "the vital ingredient the ingredient of life was missing",
+        "signal": "S08662_L0200_E009",
+        "response": "the vital ingredient of life was missing",
+        "whisper_signal": " The vital ingredient, the ingredient of life, was missing.",
+        "whisper_msbg": " The vital ingredients, the ingredients of luck, would be safe.",
+        "correctness_resp": 77.7777777778,
+        "correctness_whisper": 0
+    },
+    "S08942_L0200_E009": {
+        "prompt": "the quality of housing is also improving all the time",
+        "signal": "S08942_L0200_E009",
+        "response": "the quality of housing is also improving all the time",
+        "whisper_signal": " The quality of housing is also improving all the time.",
+        "whisper_msbg": " The quality of housing is also improving all the time.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08999_L0200_E009": {
+        "prompt": "staff are underpaid and know next to nothing about wine",
+        "signal": "S08999_L0200_E009",
+        "response": "the staff are underpaid and know next to nothing about wine",
+        "whisper_signal": " Start or underpaid and no next to nothing about wine.",
+        "whisper_msbg": " Starter under ako. No known one.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09026_L0200_E009": {
+        "prompt": "why would i want to hurt her",
+        "signal": "S09026_L0200_E009",
+        "response": "why would i want to hurt her",
+        "whisper_signal": " Why would I want to find a child?",
+        "whisper_msbg": " Why would I want to finish that?",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09229_L0200_E009": {
+        "prompt": "we know the truth of the matter",
+        "signal": "S09229_L0200_E009",
+        "response": "we know the truth of a matter",
+        "whisper_signal": " We know the truth of the matter.",
+        "whisper_msbg": " We know the truth of the matter.",
+        "correctness_resp": 85.7142857143,
+        "correctness_whisper": 0
+    },
+    "S09267_L0200_E009": {
+        "prompt": "about eleven said the man almost unwillingly",
+        "signal": "S09267_L0200_E009",
+        "response": "about eleven said the mayor almost unwillingly",
+        "whisper_signal": " About 11, set the man, almost unwillingly.",
+        "whisper_msbg": " about to let set the man over some willing thing.",
+        "correctness_resp": 85.7142857143,
+        "correctness_whisper": 0
+    },
+    "S09290_L0200_E009": {
+        "prompt": "all we can say is it's about time",
+        "signal": "S09290_L0200_E009",
+        "response": "all we can say is it's about time",
+        "whisper_signal": " So we can say yes, it's about time.",
+        "whisper_msbg": " So as you can see, it's about coming.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09528_L0200_E009": {
+        "prompt": "do you think we could try again",
+        "signal": "S09528_L0200_E009",
+        "response": "do you think we could try again",
+        "whisper_signal": " Do you think we could try again?",
+        "whisper_msbg": " Do you think you could try a day?",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09936_L0200_E009": {
+        "prompt": "what else have you got in common",
+        "signal": "S09936_L0200_E009",
+        "response": "what else have you got in common",
+        "whisper_signal": " so",
+        "whisper_msbg": " That's what we got in common.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08756_L0200_E010": {
+        "prompt": "it isn't fairness that the world needs",
+        "signal": "S08756_L0200_E010",
+        "response": "",
+        "whisper_signal": " day.",
+        "whisper_msbg": "",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S08855_L0200_E010": {
+        "prompt": "it wouldn't be right to do that",
+        "signal": "S08855_L0200_E010",
+        "response": "it wouldn't be right to do that",
+        "whisper_signal": " It wouldn't be right to do that.",
+        "whisper_msbg": " It won't be right to do that.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09132_L0200_E010": {
+        "prompt": "now it is gone she told herself firmly",
+        "signal": "S09132_L0200_E010",
+        "response": "now it has gone she told herself firmly",
+        "whisper_signal": " Now it is gone. She told herself a family.",
+        "whisper_msbg": " Now it has gone. Shit, I'll have to sell it for you.",
+        "correctness_resp": 87.5,
+        "correctness_whisper": 0
+    },
+    "S09238_L0200_E010": {
+        "prompt": "one is the effect of technological progress on productivity growth",
+        "signal": "S09238_L0200_E010",
+        "response": "honours the effect of technological progress on productivity growth",
+        "whisper_signal": " One is the effect of technological progress on productivity growth.",
+        "whisper_msbg": " One is the effect of technological progress and productivity growth.",
+        "correctness_resp": 80.0,
+        "correctness_whisper": 0
+    },
+    "S09278_L0200_E010": {
+        "prompt": "wasn't it a rather weighty responsibility to shoulder",
+        "signal": "S09278_L0200_E010",
+        "response": "wasn't it a rather weighty responsibility to shoulder",
+        "whisper_signal": " Wasn't it rather way too responsibility to shoulder?",
+        "whisper_msbg": " reach much in halloween in the l\u00e0nderdur. Remain in ostat mi moment,",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09320_L0200_E010": {
+        "prompt": "i saw the difference the flood had made",
+        "signal": "S09320_L0200_E010",
+        "response": "i saw the difference at load",
+        "whisper_signal": " I saw the difference the fact that I made.",
+        "whisper_msbg": " History of the distance, therefore, landing.",
+        "correctness_resp": 50.0,
+        "correctness_whisper": 0
+    },
+    "S09799_L0200_E010": {
+        "prompt": "she spun round hand to her chest",
+        "signal": "S09799_L0200_E010",
+        "response": "she spun round to her chest",
+        "whisper_signal": " She spun round and to the chest.",
+        "whisper_msbg": " It's a woman and a trans bypass. You've got to get a quick conclusion fromied and that's your color. You've got to be pulp and you've got to be good at\u0142\u0105czim an adjust. Withoutnen is a sharp move with a decent sense ofhnlichism and selfishness. It's not even true you're alone. So you're going forward to that.",
+        "correctness_resp": 85.7142857143,
+        "correctness_whisper": 0
+    },
+    "S09802_L0200_E010": {
+        "prompt": "what sort of a name is it",
+        "signal": "S09802_L0200_E010",
+        "response": "what sort of a name is it",
+        "whisper_signal": " What sort of a name is it?",
+        "whisper_msbg": " That's sort of the name.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08664_L0200_E013": {
+        "prompt": "will you ask her or shall i",
+        "signal": "S08664_L0200_E013",
+        "response": "will you ask her or shall i",
+        "whisper_signal": " But you ask her. What shall I?",
+        "whisper_msbg": " Would you ask it? What's your line?",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08879_L0200_E013": {
+        "prompt": "my memory wretched thing is still playing truant",
+        "signal": "S08879_L0200_E013",
+        "response": "my memory is still playing truant",
+        "whisper_signal": " My memory wretched thing is still playing truant.",
+        "whisper_msbg": " My memory is wretched thing, it's still playing truant.",
+        "correctness_resp": 75.0,
+        "correctness_whisper": 0
+    },
+    "S08940_L0200_E013": {
+        "prompt": "but it does not work like that",
+        "signal": "S08940_L0200_E013",
+        "response": "but it does not work like that",
+        "whisper_signal": " But it does not work like that.",
+        "whisper_msbg": " Zein g Wyny oilol fl\u4e56nod ac i botimb a teftulau o ridd hyn\u2026",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09051_L0200_E013": {
+        "prompt": "there isn't much scope for skill here",
+        "signal": "S09051_L0200_E013",
+        "response": "there isn't much scope for skill here",
+        "whisper_signal": " There isn't much scum for skill here.",
+        "whisper_msbg": " There isn't much scum for skill here.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09091_L0200_E013": {
+        "prompt": "i thought it was just like any other party",
+        "signal": "S09091_L0200_E013",
+        "response": "i thought it was just like any other party",
+        "whisper_signal": " I thought it was just like any other party.",
+        "whisper_msbg": " I thought it was just like any other party.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09180_L0200_E013": {
+        "prompt": "i didn't know about your father about making you work",
+        "signal": "S09180_L0200_E013",
+        "response": "i didn't know about your father about making it work",
+        "whisper_signal": " I didn't know about your father, about making you work.",
+        "whisper_msbg": " Am hyn ty eti dar Wel\ufffd\ufffdlyn, o wedi iTannau Drny cardsoriaun",
+        "correctness_resp": 90.0,
+        "correctness_whisper": 0
+    },
+    "S09191_L0200_E013": {
+        "prompt": "it is this that we examine in the next section",
+        "signal": "S09191_L0200_E013",
+        "response": "it is this that we examine in the next section",
+        "whisper_signal": " It is this that we examine in the next section.",
+        "whisper_msbg": " It is this that we examine in the next section.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09257_L0200_E013": {
+        "prompt": "it was five o'clock and dark and cold and wet",
+        "signal": "S09257_L0200_E013",
+        "response": "it was five o'clock and dark and cold and wet",
+        "whisper_signal": " It was five o'clock and dark and cold and wet.",
+        "whisper_msbg": " It was five o'clock and dark and cold and wet.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09258_L0200_E013": {
+        "prompt": "all of that was so long ago",
+        "signal": "S09258_L0200_E013",
+        "response": "all of that was so long ago",
+        "whisper_signal": " All of that was so long ago.",
+        "whisper_msbg": " All of that was so long ago.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09691_L0200_E013": {
+        "prompt": "they are the invisible force of the criminal law",
+        "signal": "S09691_L0200_E013",
+        "response": "they are the invisible force for criminal law",
+        "whisper_signal": " They are the invisible force of the criminal law.",
+        "whisper_msbg": " They are the invisible force of the criminal law.",
+        "correctness_resp": 77.7777777778,
+        "correctness_whisper": 0
+    },
+    "S08564_L0200_E019": {
+        "prompt": "at home indoors i didn't ask my mum",
+        "signal": "S08564_L0200_E019",
+        "response": "at home indoors i didn't ask my mum",
+        "whisper_signal": " But home indoors, I didn't ask my mom.",
+        "whisper_msbg": " That home in doors I didn't ask my mom.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08667_L0200_E019": {
+        "prompt": "she doesn't miss a trick does she",
+        "signal": "S08667_L0200_E019",
+        "response": "she doesn't miss a trick does she",
+        "whisper_signal": " She doesn't miss a trick, does she?",
+        "whisper_msbg": " She doesn't miss a trick, does she?",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08761_L0200_E019": {
+        "prompt": "you can say you were having a word with me",
+        "signal": "S08761_L0200_E019",
+        "response": "you could say you are having a word with me",
+        "whisper_signal": " You can say you are having a word with me.",
+        "whisper_msbg": " You can say you were having a word with me.",
+        "correctness_resp": 80.0,
+        "correctness_whisper": 0
+    },
+    "S08824_L0200_E019": {
+        "prompt": "i thought you were dead for sure",
+        "signal": "S08824_L0200_E019",
+        "response": "i thought you were dead for sure",
+        "whisper_signal": " I thought you were dead for sure.",
+        "whisper_msbg": " I thought you were dead, but sure.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08941_L0200_E019": {
+        "prompt": "all but two of them shed weight",
+        "signal": "S08941_L0200_E019",
+        "response": "the two of them shed weight",
+        "whisper_signal": " For the tools that we should wait.",
+        "whisper_msbg": " Over two of them shed weight.",
+        "correctness_resp": 71.4285714286,
+        "correctness_whisper": 0
+    },
+    "S09876_L0200_E019": {
+        "prompt": "none of them was quite right yet",
+        "signal": "S09876_L0200_E019",
+        "response": "none of them was quite right yet",
+        "whisper_signal": " Now that the film is quite right yet.",
+        "whisper_msbg": " Another thing was quite right yet.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08605_L0200_E021": {
+        "prompt": "and if not what will become of it",
+        "signal": "S08605_L0200_E021",
+        "response": "and if not what will become of it",
+        "whisper_signal": " And if not, what will become of it?",
+        "whisper_msbg": " Caad freely ieg el\uc5c8ad o gustai intrw thanks ond.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08633_L0200_E021": {
+        "prompt": "waiter may i have some bread please",
+        "signal": "S08633_L0200_E021",
+        "response": "waiter may i have some bread please",
+        "whisper_signal": " Waiter, may I have some bread please?",
+        "whisper_msbg": " Waiter, may I have some bread please?",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08691_L0200_E021": {
+        "prompt": "so if you spot a public phone box tell me",
+        "signal": "S08691_L0200_E021",
+        "response": "so if you spot a public phone box tell me",
+        "whisper_signal": " So, if you spot a public phone box, tell me.",
+        "whisper_msbg": " So, if you spot a public phone box, tell me.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08693_L0200_E021": {
+        "prompt": "there hasn't been anything said about foul play yet",
+        "signal": "S08693_L0200_E021",
+        "response": "there hasn't been anything said about foul play yet",
+        "whisper_signal": " There hasn't been anything said about foul play yet.",
+        "whisper_msbg": " Yng Ngwan Lys Guru Berryolr Iboor Energyam Yng Ngwbinas Gonna",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08838_L0200_E021": {
+        "prompt": "she raised the pipe again and spat hard",
+        "signal": "S08838_L0200_E021",
+        "response": "she raised a pipe again and stack hard",
+        "whisper_signal": " He raised the pipe again, a spat-haw.",
+        "whisper_msbg": " She raised the play again and spanked hard.",
+        "correctness_resp": 75.0,
+        "correctness_whisper": 0
+    },
+    "S09046_L0200_E021": {
+        "prompt": "she made a huge effort to calm herself",
+        "signal": "S09046_L0200_E021",
+        "response": "she made a huge effort to calm herself",
+        "whisper_signal": " She made a huge effort to calm herself.",
+        "whisper_msbg": " She made a huge effort to calm herself.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09172_L0200_E021": {
+        "prompt": "for my liking we couldn't go there fast enough",
+        "signal": "S09172_L0200_E021",
+        "response": "to my liking we couldn't go there fast enough",
+        "whisper_signal": " But my liking, we couldn't go that fast enough.",
+        "whisper_msbg": " But my liking, we couldn't go that fast enough.",
+        "correctness_resp": 88.8888888889,
+        "correctness_whisper": 0
+    },
+    "S09424_L0200_E021": {
+        "prompt": "i do love you both so much",
+        "signal": "S09424_L0200_E021",
+        "response": "i do love you both so much",
+        "whisper_signal": " I do love you both so much.",
+        "whisper_msbg": " I do love you both so much.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09482_L0200_E021": {
+        "prompt": "you may find it helpful having read this booklet",
+        "signal": "S09482_L0200_E021",
+        "response": "it's helpful",
+        "whisper_signal": " You may find it helpful having read this book.",
+        "whisper_msbg": " fo f backed Haven Red 56",
+        "correctness_resp": 11.1111111111,
+        "correctness_whisper": 0
+    },
+    "S09705_L0200_E021": {
+        "prompt": "i want her to share it with me",
+        "signal": "S09705_L0200_E021",
+        "response": "i want her to share it with me",
+        "whisper_signal": " I want her to share it with me.",
+        "whisper_msbg": " I want her to share it with me.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09967_L0200_E021": {
+        "prompt": "i don't intend to be one of them",
+        "signal": "S09967_L0200_E021",
+        "response": "i don't intend to be one of them",
+        "whisper_signal": " I don't intend to be one of them.",
+        "whisper_msbg": " I don't intend to be one of them.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08656_L0200_E018": {
+        "prompt": "to the area concerned or to the office",
+        "signal": "S08656_L0200_E018",
+        "response": "at the office",
+        "whisper_signal": " to the area concerned or to the office.",
+        "whisper_msbg": " I've read some cuts, I've read you It does really function for urine",
+        "correctness_resp": 25.0,
+        "correctness_whisper": 0
+    },
+    "S08847_L0200_E018": {
+        "prompt": "from a commercial point of view however liquidity is fundamental",
+        "signal": "S08847_L0200_E018",
+        "response": "from a commercial point of view that is",
+        "whisper_signal": " From a commercial point of view, however, liquidity is fundamental.",
+        "whisper_msbg": " So the commercial point that you have, however, is that particularly fundamental.",
+        "correctness_resp": 70.0,
+        "correctness_whisper": 0
+    },
+    "S08858_L0200_E018": {
+        "prompt": "they made me feel older than they were",
+        "signal": "S08858_L0200_E018",
+        "response": "they made me feel",
+        "whisper_signal": " They may feel positive if they wish.",
+        "whisper_msbg": " You",
+        "correctness_resp": 50.0,
+        "correctness_whisper": 0
+    },
+    "S08870_L0200_E018": {
+        "prompt": "will i get some in for you now",
+        "signal": "S08870_L0200_E018",
+        "response": "shall i get someone to",
+        "whisper_signal": " Will I get someone for you now?",
+        "whisper_msbg": " kids",
+        "correctness_resp": 25.0,
+        "correctness_whisper": 0
+    },
+    "S09177_L0200_E018": {
+        "prompt": "his mother took a swig of her brandy",
+        "signal": "S09177_L0200_E018",
+        "response": "his mother took a scoop of a brandy",
+        "whisper_signal": " His mother took a speak of her brandy.",
+        "whisper_msbg": " His mother took a space with her family.",
+        "correctness_resp": 75.0,
+        "correctness_whisper": 0
+    },
+    "S09475_L0200_E018": {
+        "prompt": "i decided to do it this morning",
+        "signal": "S09475_L0200_E018",
+        "response": "i decided to do it this morning",
+        "whisper_signal": " I decided to do it this morning.",
+        "whisper_msbg": " There local banks of stands on lanterns or on inconsistent rooms including coloration, green near the black or green area, where the answered system were public-minded,ulent security loans and 100% private buildings that are not dedicated to remain types. So that upscores",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08625_L0200_E001": {
+        "prompt": "i'm not your enemy you can trust me",
+        "signal": "S08625_L0200_E001",
+        "response": "i met your you can trust me",
+        "whisper_signal": " I'm not your enemy, you can trust me.",
+        "whisper_msbg": " I'm not your enemy, you can trust me.",
+        "correctness_resp": 62.5,
+        "correctness_whisper": 0
+    },
+    "S08732_L0200_E001": {
+        "prompt": "and we need your help with the survey",
+        "signal": "S08732_L0200_E001",
+        "response": "",
+        "whisper_signal": " Hahaha.",
+        "whisper_msbg": " You",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S08791_L0200_E001": {
+        "prompt": "you were watching me all the time",
+        "signal": "S08791_L0200_E001",
+        "response": "all of the time",
+        "whisper_signal": " You will watch me for the rest of time.",
+        "whisper_msbg": " You should watch the fourth time.",
+        "correctness_resp": 28.5714285714,
+        "correctness_whisper": 0
+    },
+    "S08889_L0200_E001": {
+        "prompt": "this was a real answer to prayer",
+        "signal": "S08889_L0200_E001",
+        "response": "this is a real answer to prayer",
+        "whisper_signal": " This was a real-on-specifrag.",
+        "whisper_msbg": " This is a real onset of prayer.",
+        "correctness_resp": 85.7142857143,
+        "correctness_whisper": 0
+    },
+    "S08993_L0200_E001": {
+        "prompt": "she forced her voice down an octave",
+        "signal": "S08993_L0200_E001",
+        "response": "",
+        "whisper_signal": " You",
+        "whisper_msbg": " You",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S09073_L0200_E001": {
+        "prompt": "he spurred the horse into a canter",
+        "signal": "S09073_L0200_E001",
+        "response": "he spurred the horse into a canter",
+        "whisper_signal": " He's got the horse, he's with Tantra.",
+        "whisper_msbg": " \u0437\u0430\u043c\u0435\u0447merclick eccentric",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09175_L0200_E001": {
+        "prompt": "it's not easy to talk against the noise",
+        "signal": "S09175_L0200_E001",
+        "response": "it's not easy to talk against",
+        "whisper_signal": " It's not easy to talk about the humans.",
+        "whisper_msbg": " It's not easy to throw the dust away in this.",
+        "correctness_resp": 75.0,
+        "correctness_whisper": 0
+    },
+    "S09214_L0200_E001": {
+        "prompt": "what are you trying to do to me",
+        "signal": "S09214_L0200_E001",
+        "response": "what are you trying to do to me",
+        "whisper_signal": " What he tried to do to me.",
+        "whisper_msbg": " What he's trying to do to me.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09317_L0200_E001": {
+        "prompt": "how free is a free public house",
+        "signal": "S09317_L0200_E001",
+        "response": "public house",
+        "whisper_signal": " Drilling this video\u307e\u3060\u5c71\u4e0b",
+        "whisper_msbg": " Now always, this is approved public house management.",
+        "correctness_resp": 28.5714285714,
+        "correctness_whisper": 0
+    },
+    "S09485_L0200_E001": {
+        "prompt": "the supermarket fruit with that little extra bite",
+        "signal": "S09485_L0200_E001",
+        "response": "the supermarkets closed",
+        "whisper_signal": " The yanl\u0131\u015f\u59b9ructlet earlypar treatment session",
+        "whisper_msbg": " I feel like it's too late but I go up, i still want to.",
+        "correctness_resp": 12.5,
+        "correctness_whisper": 0
+    },
+    "S09673_L0200_E001": {
+        "prompt": "there was no such basis available for women",
+        "signal": "S09673_L0200_E001",
+        "response": "",
+        "whisper_signal": " \ud83c\udfb5",
+        "whisper_msbg": " Thank you. Thank you. It was great, thanks. Thanks for coming. Thank you.",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S09894_L0200_E001": {
+        "prompt": "i let him stay here because of you",
+        "signal": "S09894_L0200_E001",
+        "response": "i let him stay there",
+        "whisper_signal": " I let him stay here, if I see him here.",
+        "whisper_msbg": " I let him stay here to see me.",
+        "correctness_resp": 50.0,
+        "correctness_whisper": 0
+    },
+    "S08578_L0200_E003": {
+        "prompt": "get out of my way at once",
+        "signal": "S08578_L0200_E003",
+        "response": "get out of my way at once",
+        "whisper_signal": " Get out of my way at once.",
+        "whisper_msbg": " Yeah, chef, thanks guys.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08683_L0200_E003": {
+        "prompt": "the distinction however is little more than skin deep",
+        "signal": "S08683_L0200_E003",
+        "response": "the distinction however is little more than skin deep",
+        "whisper_signal": " The distinction, however, is little more than skin-deaf.",
+        "whisper_msbg": " The distinction, however, is little more than skin.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08727_L0200_E003": {
+        "prompt": "but it was always so hot in the centre",
+        "signal": "S08727_L0200_E003",
+        "response": "but it was always so hot in the centre",
+        "whisper_signal": " But it was always so hot in the centre.",
+        "whisper_msbg": " But it was always so hot in the center.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08785_L0200_E003": {
+        "prompt": "apart from one plump couple they were all men",
+        "signal": "S08785_L0200_E003",
+        "response": "apart from one plump couple they were all men",
+        "whisper_signal": " This could save us from war in Plumpless local.",
+        "whisper_msbg": " Apart from one front cover, they were all men.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08809_L0200_E003": {
+        "prompt": "he saw the humorous side even of the slump",
+        "signal": "S08809_L0200_E003",
+        "response": "he saw the humorous side even of the slump",
+        "whisper_signal": " Peace all the humor aside, even if the slump.",
+        "whisper_msbg": " It's all the humorous side, even if the slump.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08901_L0200_E003": {
+        "prompt": "i hold your hand and you hold mine",
+        "signal": "S08901_L0200_E003",
+        "response": "i hold your hand and you hold mine",
+        "whisper_signal": " I hold your hand that you hold mine.",
+        "whisper_msbg": " I hold your hand that you hold mine.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08998_L0200_E003": {
+        "prompt": "could he get leave for this dance",
+        "signal": "S08998_L0200_E003",
+        "response": "we get moved for this ",
+        "whisper_signal": " A bit of a leave for this dance.",
+        "whisper_msbg": " anyone else has done, you just need to",
+        "correctness_resp": 42.8571428571,
+        "correctness_whisper": 0
+    },
+    "S09047_L0200_E003": {
+        "prompt": "we communicate with other people throughout our lives",
+        "signal": "S09047_L0200_E003",
+        "response": "we communicate with other people throughout our lives",
+        "whisper_signal": " We communicate with other people throughout our lives.",
+        "whisper_msbg": " We communicate with other people throughout our lives.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09136_L0200_E003": {
+        "prompt": "she couldn't let them into her mind",
+        "signal": "S09136_L0200_E003",
+        "response": "she wouldn't let them into her mind",
+        "whisper_signal": " She couldn't let them into her mind.",
+        "whisper_msbg": " She couldn't let them into her mind.",
+        "correctness_resp": 85.7142857143,
+        "correctness_whisper": 0
+    },
+    "S09144_L0200_E003": {
+        "prompt": "i knew i didn't want to walk up that beach",
+        "signal": "S09144_L0200_E003",
+        "response": "i knew i didn't want to walk up that beach",
+        "whisper_signal": " I knew I didn't want to walk up that beach.",
+        "whisper_msbg": " I knew I didn't want to walk out that beach.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09154_L0200_E003": {
+        "prompt": "they must have a lot of catching up to do",
+        "signal": "S09154_L0200_E003",
+        "response": "they must have a lot of catching up to do",
+        "whisper_signal": " They must have a lot of catching up to do.",
+        "whisper_msbg": " People are going from their learning\u4e0a. Punta culture.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09339_L0200_E003": {
+        "prompt": "there was a harsh note in his voice",
+        "signal": "S09339_L0200_E003",
+        "response": "there was a harsh note in his voice",
+        "whisper_signal": " There was a horse note in his voice.",
+        "whisper_msbg": " There was a fascination in his voice.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09564_L0200_E003": {
+        "prompt": "but i put on a bright new grin",
+        "signal": "S09564_L0200_E003",
+        "response": "and i put on a bright new",
+        "whisper_signal": " But I'll put on a bright new green.",
+        "whisper_msbg": "\u3058\u3083\u3058\u3083\u3058\u3083\u3058\u3083\u3058\u3083\u3058\u3083\u3058\u3083\u3058\u3083\u3058\u3083\u3058\u3083\u3058\u3083\u3058\u3083\u3058\u3083\u3058\u3083\u3058\u3083\u3058\u3083\u3058\u3083\u3058\u3083\u3058\u3083\u3058\u3083\u3058\u3083\u3058\u3083\u3058\u3083",
+        "correctness_resp": 75.0,
+        "correctness_whisper": 0
+    },
+    "S09596_L0200_E003": {
+        "prompt": "we kill them and they kill us",
+        "signal": "S09596_L0200_E003",
+        "response": "we kill them and they kill us",
+        "whisper_signal": " We kill them and they kill us.",
+        "whisper_msbg": " Thank you. Thank you. Thank you.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09606_L0200_E003": {
+        "prompt": "when are we going to have a game again",
+        "signal": "S09606_L0200_E003",
+        "response": "when are we going to have a day in the ",
+        "whisper_signal": " Why are we going to have a game again?",
+        "whisper_msbg": " to have a dome a dome.",
+        "correctness_resp": 77.7777777778,
+        "correctness_whisper": 0
+    },
+    "S09733_L0200_E003": {
+        "prompt": "they tend to subside as quickly as they arise",
+        "signal": "S09733_L0200_E003",
+        "response": "they tend to subside as quickly as they arise",
+        "whisper_signal": " They tend to subside as quickly as they arise.",
+        "whisper_msbg": " They tend to subside as quickly as they arise.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09908_L0200_E003": {
+        "prompt": "where else could he have been going",
+        "signal": "S09908_L0200_E003",
+        "response": "where else could you have been going",
+        "whisper_signal": " Where else could he have been going?",
+        "whisper_msbg": " Where else could he have been going?",
+        "correctness_resp": 85.7142857143,
+        "correctness_whisper": 0
+    },
+    "S09945_L0200_E003": {
+        "prompt": "i don't owe anyone except perhaps myself",
+        "signal": "S09945_L0200_E003",
+        "response": "i didn't tell anyone except perhaps myself ",
+        "whisper_signal": " I don't owe anyone except the Hubs myself.",
+        "whisper_msbg": " both the",
+        "correctness_resp": 71.4285714286,
+        "correctness_whisper": 0
+    },
+    "S08529_L0200_E005": {
+        "prompt": "i think he confirmed this on saturday",
+        "signal": "S08529_L0200_E005",
+        "response": "i think you are",
+        "whisper_signal": " I think you deserve this on Saturday.",
+        "whisper_msbg": " That's it to be stopped yet?",
+        "correctness_resp": 28.5714285714,
+        "correctness_whisper": 0
+    },
+    "S08653_L0200_E005": {
+        "prompt": "attached was a note giving his name",
+        "signal": "S08653_L0200_E005",
+        "response": "",
+        "whisper_signal": " Attached shines in the distance. The pace.",
+        "whisper_msbg": "",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S08660_L0200_E005": {
+        "prompt": "now that has all been sunk without trace",
+        "signal": "S08660_L0200_E005",
+        "response": "",
+        "whisper_signal": " Screw Impossible",
+        "whisper_msbg": "",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S08949_L0200_E005": {
+        "prompt": "you would have to question whether she is genuine",
+        "signal": "S08949_L0200_E005",
+        "response": "you have the",
+        "whisper_signal": "\u9762\u5b50\u5783\u573e\u770b\u8d77\u4f86\u592a\u51fa\u76ee\u4e86",
+        "whisper_msbg": "",
+        "correctness_resp": 22.2222222222,
+        "correctness_whisper": 0
+    },
+    "S08950_L0200_E005": {
+        "prompt": "the answer is likely to be in the kitchen",
+        "signal": "S08950_L0200_E005",
+        "response": "the answer is",
+        "whisper_signal": " The ultra diseases reflections.",
+        "whisper_msbg": "",
+        "correctness_resp": 33.3333333333,
+        "correctness_whisper": 0
+    },
+    "S09040_L0200_E005": {
+        "prompt": "finally he found another field where he could hide",
+        "signal": "S09040_L0200_E005",
+        "response": "",
+        "whisper_signal": "",
+        "whisper_msbg": "",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S09080_L0200_E005": {
+        "prompt": "it also meant something looking back as well as forward",
+        "signal": "S09080_L0200_E005",
+        "response": "weather for it",
+        "whisper_signal": " Thank you.",
+        "whisper_msbg": "",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S09314_L0200_E005": {
+        "prompt": "the man with one arm says anna",
+        "signal": "S09314_L0200_E005",
+        "response": "",
+        "whisper_signal": " the Hello? Hello? Get lost?",
+        "whisper_msbg": "",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S09396_L0200_E005": {
+        "prompt": "but this is more out of opportunity than necessity",
+        "signal": "S09396_L0200_E005",
+        "response": "more out of necessity",
+        "whisper_signal": " This week's more around the spotted University of Manhattan.",
+        "whisper_msbg": "",
+        "correctness_resp": 44.4444444444,
+        "correctness_whisper": 0
+    },
+    "S09450_L0200_E005": {
+        "prompt": "the district society is not alone in its call",
+        "signal": "S09450_L0200_E005",
+        "response": "not alone",
+        "whisper_signal": " r\u00e9ussite la premi\u00e8re lineup Si un \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440 tens zariste le contact a public Jefeut al\uadf8\ub798 empezar",
+        "whisper_msbg": "",
+        "correctness_resp": 22.2222222222,
+        "correctness_whisper": 0
+    },
+    "S09451_L0200_E005": {
+        "prompt": "jack raised one hand in a feeble salute",
+        "signal": "S09451_L0200_E005",
+        "response": "",
+        "whisper_signal": " Japan! Jas Lake, Wa\u0105da Hill. I hope you'll see you again soon.",
+        "whisper_msbg": "",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S09509_L0200_E005": {
+        "prompt": "now you really look very nice in that",
+        "signal": "S09509_L0200_E005",
+        "response": "you really look very in that",
+        "whisper_signal": " Yes, you've really helped very much in that.",
+        "whisper_msbg": "",
+        "correctness_resp": 75.0,
+        "correctness_whisper": 0
+    },
+    "S09666_L0200_E005": {
+        "prompt": "smoking is dangerous for you and your baby",
+        "signal": "S09666_L0200_E005",
+        "response": "dangerous and",
+        "whisper_signal": " That's better now.",
+        "whisper_msbg": " Thank you.",
+        "correctness_resp": 25.0,
+        "correctness_whisper": 0
+    },
+    "S09811_L0200_E005": {
+        "prompt": "one of the men said yes we are",
+        "signal": "S09811_L0200_E005",
+        "response": "",
+        "whisper_signal": " I want to thank you, thank you very much.",
+        "whisper_msbg": "",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S09833_L0200_E005": {
+        "prompt": "now what should she get for lunch",
+        "signal": "S09833_L0200_E005",
+        "response": "",
+        "whisper_signal": "",
+        "whisper_msbg": "",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S09922_L0200_E005": {
+        "prompt": "no other director would have cast me no other",
+        "signal": "S09922_L0200_E005",
+        "response": "",
+        "whisper_signal": " One moment, three, two, one, and three.",
+        "whisper_msbg": "\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed \u2026\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed \u00d2\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed \u00d2\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed \u00ca\u00ed\u00ed\u00ed \u00c9\u00ed\u00ed\u00ed \u00c9\u00ed\u00ed\u00ed \u00c9\u00ed \u00c9\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed It\u00eds, \u00c2\u00ed \u00c9\u00ed \u00c9\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed \u00c9\u00ed\u00ed\u00ed\u00ed\u00ed\u00ed \u00c9 \u00c9 \u00c9\u00ed\u00ed\u00ed \u00c9\u00ed\u00ed\u00ed \u00c9 \u00c9\u00ed\u00ed\u00ed \u00c9 \u00c9\u00ed\u00ed\u00ed \u00c9 \u00c9 \u00c9 \u00c9 \u00c9 \u00c9 \u00c9 \u00c9 \u00c9 \u00c9 \u00c9 \u00c9 \u00c9 \u00c9 \u00c9 \u00c9 \u00c9 \u00c9 \u00c9 \u00c9 \u00c9 \u00c9 \u00c9 \u00c9",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S09961_L0200_E005": {
+        "prompt": "now who did you sit next to",
+        "signal": "S09961_L0200_E005",
+        "response": "",
+        "whisper_signal": " Now this is meaning voc\u00ea.",
+        "whisper_msbg": "",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S08637_L0200_E007": {
+        "prompt": "this is the essence of the algorithm above",
+        "signal": "S08637_L0200_E007",
+        "response": "this is the essence of the algorithm above",
+        "whisper_signal": " This is the essence of the algorithm above.",
+        "whisper_msbg": " Based on the essence of the algorithm above.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08652_L0200_E007": {
+        "prompt": "you were late by half an hour this afternoon",
+        "signal": "S08652_L0200_E007",
+        "response": "were late by half and hour this afternoon",
+        "whisper_signal": " You are late by half an hour this afternoon.",
+        "whisper_msbg": " You will late by half an hour at Disney.",
+        "correctness_resp": 77.7777777778,
+        "correctness_whisper": 0
+    },
+    "S08743_L0200_E007": {
+        "prompt": "wear old clothes and bring a hammer",
+        "signal": "S08743_L0200_E007",
+        "response": "under the hammer",
+        "whisper_signal": "",
+        "whisper_msbg": " A",
+        "correctness_resp": 14.2857142857,
+        "correctness_whisper": 0
+    },
+    "S08750_L0200_E007": {
+        "prompt": "we would like you to keep it",
+        "signal": "S08750_L0200_E007",
+        "response": " ",
+        "whisper_signal": " We would like you to keep it.",
+        "whisper_msbg": " hope . .",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S08853_L0200_E007": {
+        "prompt": "that i think is a healthy enough attitude",
+        "signal": "S08853_L0200_E007",
+        "response": "that i think is a healthy enough attitude",
+        "whisper_signal": " That, I think, is a healthy enough attitude.",
+        "whisper_msbg": " That, I think, is a healthy and a gratitude.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08903_L0200_E007": {
+        "prompt": "however there was one small but significant error",
+        "signal": "S08903_L0200_E007",
+        "response": "however there was one small but significant error",
+        "whisper_signal": " However, there was one small but significant error.",
+        "whisper_msbg": " However, there was one thing that could make it again.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09228_L0200_E007": {
+        "prompt": "he thought of himself as a responsible and dependable person",
+        "signal": "S09228_L0200_E007",
+        "response": "he thought of himself as a responsible and dependable person",
+        "whisper_signal": " He thought of himself as a responsible and dependable person.",
+        "whisper_msbg": " He thought of himself as a responsible and dependable person.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09346_L0200_E007": {
+        "prompt": "it was my choice to stop working",
+        "signal": "S09346_L0200_E007",
+        "response": "it was my choice to stop working",
+        "whisper_signal": " It was my choice to stop working.",
+        "whisper_msbg": " There was my choice to stop working.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09406_L0200_E007": {
+        "prompt": "tell me what you made of her",
+        "signal": "S09406_L0200_E007",
+        "response": "",
+        "whisper_signal": " nonetheless.",
+        "whisper_msbg": " You",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S09455_L0200_E007": {
+        "prompt": "tonight she would be cool and in command",
+        "signal": "S09455_L0200_E007",
+        "response": "tonight she would be cool and in command",
+        "whisper_signal": " Tonight she would be cool and in command.",
+        "whisper_msbg": " Tonight you will be cool and in command.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09459_L0200_E007": {
+        "prompt": "if only there were something substantial to hide behind",
+        "signal": "S09459_L0200_E007",
+        "response": "if only there was something substantial to hide behind",
+        "whisper_signal": " If there was something substantial to hide behind.",
+        "whisper_msbg": " If that means ever something substantial to hide behind.",
+        "correctness_resp": 88.8888888889,
+        "correctness_whisper": 0
+    },
+    "S09540_L0200_E007": {
+        "prompt": "you could buy your own fighter plane for that",
+        "signal": "S09540_L0200_E007",
+        "response": "you could buy your own fighter plane for that",
+        "whisper_signal": " You can buy your own fighter plane for that.",
+        "whisper_msbg": " Thank you for yourottr",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09627_L0200_E007": {
+        "prompt": "quite possibly it reverted to its former use",
+        "signal": "S09627_L0200_E007",
+        "response": "quite possibly it reverted to its former use",
+        "whisper_signal": " Quite possibly it inverted to its warmer use.",
+        "whisper_msbg": " I copy that quickly in my minutes.useum.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09923_L0200_E007": {
+        "prompt": "perhaps you should go to your embassy",
+        "signal": "S09923_L0200_E007",
+        "response": "perhaps you should go to your embassy",
+        "whisper_signal": " Perhaps you should go to your embassy.",
+        "whisper_msbg": " ac, wneud o ligodork o gygy \u03ba voc sured.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08686_L0200_E009": {
+        "prompt": "you must find a squat for yourself",
+        "signal": "S08686_L0200_E009",
+        "response": "you must find out squat mister",
+        "whisper_signal": " You must find a spot in good sense.",
+        "whisper_msbg": " You must find the spot.",
+        "correctness_resp": 57.1428571429,
+        "correctness_whisper": 0
+    },
+    "S08752_L0200_E009": {
+        "prompt": "and will you be happy to go",
+        "signal": "S08752_L0200_E009",
+        "response": "and will he be happy to go",
+        "whisper_signal": " And we'll be happy to go.",
+        "whisper_msbg": " A nhw wedi bod m\u6309au.",
+        "correctness_resp": 85.7142857143,
+        "correctness_whisper": 0
+    },
+    "S09011_L0200_E009": {
+        "prompt": "it's a gun he said bending to pick it up",
+        "signal": "S09011_L0200_E009",
+        "response": "it's a gun he said bending to pick it up",
+        "whisper_signal": " It's a gun, he said, bending to pick it up.",
+        "whisper_msbg": " carea d\u0435\u044e\u0441\u044c fel fech decorate i wyth run, mwny f\u0175r y Fyrgwehr newydd am o foan i ti fl\u30b9wb?",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09094_L0200_E009": {
+        "prompt": "you don't ask for much do you mate",
+        "signal": "S09094_L0200_E009",
+        "response": "you don't ask for much do you mate",
+        "whisper_signal": " We don't ask for much, do you mate?",
+        "whisper_msbg": " Don't ask for much. Any mate.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09164_L0200_E009": {
+        "prompt": "the second goal should have been stopped too",
+        "signal": "S09164_L0200_E009",
+        "response": "a second goal should have been stopped too",
+        "whisper_signal": " The second goal should have been stopped too.",
+        "whisper_msbg": " The second world should have been stopped too.",
+        "correctness_resp": 87.5,
+        "correctness_whisper": 0
+    },
+    "S09259_L0200_E009": {
+        "prompt": "either mean it or don't do it",
+        "signal": "S09259_L0200_E009",
+        "response": "either mean it or don't do it",
+        "whisper_signal": " Either mean it or don't do it.",
+        "whisper_msbg": " You don't need to do it.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09282_L0200_E009": {
+        "prompt": "it's a tradition or an old charter or something",
+        "signal": "S09282_L0200_E009",
+        "response": "it's a tradition or an old charter or something",
+        "whisper_signal": " It's a tradition or an old charter or something.",
+        "whisper_msbg": " Make the tradition or an old charter or something.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09554_L0200_E009": {
+        "prompt": "until the police arrive i need to be alone",
+        "signal": "S09554_L0200_E009",
+        "response": "until the police arrive i need to be alone",
+        "whisper_signal": " Until the police arrive, I need to be alone.",
+        "whisper_msbg": " Until the police arrive, I need to be alone.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09577_L0200_E009": {
+        "prompt": "what time did he get home last night",
+        "signal": "S09577_L0200_E009",
+        "response": "what time did he get home last night",
+        "whisper_signal": " What time did he get home last night?",
+        "whisper_msbg": " What time did he get to last night?",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09586_L0200_E009": {
+        "prompt": "finally he put it in his mouth",
+        "signal": "S09586_L0200_E009",
+        "response": "men",
+        "whisper_signal": " Finally, the prot\u00e9g\u00e9 is made.",
+        "whisper_msbg": " Finally, the procedure is now.",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S09951_L0200_E009": {
+        "prompt": "i thank you my lord for your courtesy",
+        "signal": "S09951_L0200_E009",
+        "response": "i thank you my lord for your steer",
+        "whisper_signal": " I thank the my lord for your practicing.",
+        "whisper_msbg": " I don't surrender a seed of\u7537\u751f people.",
+        "correctness_resp": 87.5,
+        "correctness_whisper": 0
+    },
+    "S08782_L0200_E010": {
+        "prompt": "then everything was forgotten except the moment",
+        "signal": "S08782_L0200_E010",
+        "response": "then everything was forgotten except the moment",
+        "whisper_signal": " Then everything was forgotten except the moment.",
+        "whisper_msbg": " Then everything was forgotten except the moment.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08916_L0200_E010": {
+        "prompt": "and we both know that force wouldn't be necessary",
+        "signal": "S08916_L0200_E010",
+        "response": "and we both say that force wouldn't be necessary",
+        "whisper_signal": " And we both know that force wouldn't be necessary.",
+        "whisper_msbg": " We both know that folks wouldn't be necessary.",
+        "correctness_resp": 88.8888888889,
+        "correctness_whisper": 0
+    },
+    "S08923_L0200_E010": {
+        "prompt": "this is a classic sauce to serve with fish",
+        "signal": "S08923_L0200_E010",
+        "response": "this is a classic sauce to serve with fish",
+        "whisper_signal": " This is a classic sauce to serve with fish.",
+        "whisper_msbg": " This is a classic sauce to serve with fish.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09030_L0200_E010": {
+        "prompt": "still she was on her own and not very brave",
+        "signal": "S09030_L0200_E010",
+        "response": "still she was on her own and not very brave",
+        "whisper_signal": " Still, she was on her own. I'm not very brave.",
+        "whisper_msbg": " She was on her own, and not very brave.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09061_L0200_E010": {
+        "prompt": "i didn't expect anything in return for them",
+        "signal": "S09061_L0200_E010",
+        "response": "i didn't expect anything in return for them",
+        "whisper_signal": " I didn't expect anything in return for them.",
+        "whisper_msbg": " Llyrch ddisrau hynny dyd gobaltnaidd ym amgegi unanoedd. Llyrch ddis Rabbi Clanc i trynu'r Haz\u4f60\u597dher.\u62c9l digat traineeidio miss premieid yw dd\u7267a off y eu eich wneud, un Sokyd unaId peen to agenda it bore, gydag gael emphasis haintol counted it 8 en dalzil ac edil\u304ec i fell acho'r cael \uadf8\ufffdnau er \u041e\u0442illan ed ac gobaltnaid alel liquid geraintol ar ganol iawr y sydean bet N\u00f3syr mech llunag mar\u30e7byddio'r eleithgag hongon ar gydol agol felly?! Fetgor ar edigil going to the werd!",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09308_L0200_E010": {
+        "prompt": "rain or no rain i must get on my way",
+        "signal": "S09308_L0200_E010",
+        "response": "rain or no rain i must get on my way",
+        "whisper_signal": " I must get on my way.",
+        "whisper_msbg": " I'm not scared on my way.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09342_L0200_E010": {
+        "prompt": "at least she thought i will die touching something beautiful",
+        "signal": "S09342_L0200_E010",
+        "response": "i reside",
+        "whisper_signal": " At least she think I will die touching something.",
+        "whisper_msbg": " the adopted tools submit the its provisional",
+        "correctness_resp": 10.0,
+        "correctness_whisper": 0
+    },
+    "S09626_L0200_E010": {
+        "prompt": "jealousy had pierced his side like a spear",
+        "signal": "S09626_L0200_E010",
+        "response": "jealousy had pierced her side like a spear",
+        "whisper_signal": " Genesine appears to side like a spear.",
+        "whisper_msbg": " think this is some fuckin spice to make that sound nice and humulety feel better this vibe is factions intriguing Life is like a carnival I think this is a narrative All correct WES In the past",
+        "correctness_resp": 87.5,
+        "correctness_whisper": 0
+    },
+    "S09719_L0200_E010": {
+        "prompt": "it was difficult to tell from this distance",
+        "signal": "S09719_L0200_E010",
+        "response": "it was difficult to tell from this distance",
+        "whisper_signal": " It was difficult to tell from this distance.",
+        "whisper_msbg": " That's difficult to tell from this distance.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09753_L0200_E010": {
+        "prompt": "there is however an important general point at issue here",
+        "signal": "S09753_L0200_E010",
+        "response": "there is no affair",
+        "whisper_signal": " Maleficent",
+        "whisper_msbg": "ahahaha",
+        "correctness_resp": 20.0,
+        "correctness_whisper": 0
+    },
+    "S09754_L0200_E010": {
+        "prompt": "let me open the wine i said",
+        "signal": "S09754_L0200_E010",
+        "response": "let me open the wine i said",
+        "whisper_signal": " Let me open the wine, I say.",
+        "whisper_msbg": " Let me open the line, I say.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09818_L0200_E010": {
+        "prompt": "you won't lie so you still believe it",
+        "signal": "S09818_L0200_E010",
+        "response": "believe him",
+        "whisper_signal": " You won't run, so you still believe it.",
+        "whisper_msbg": " You won't run. So you still believe it.",
+        "correctness_resp": 12.5,
+        "correctness_whisper": 0
+    },
+    "S10000_L0200_E010": {
+        "prompt": "do i need to treat the mortar",
+        "signal": "S10000_L0200_E010",
+        "response": "do i need to ",
+        "whisper_signal": " Do I need to treat the boat?",
+        "whisper_msbg": " Do you want me to treat the person?",
+        "correctness_resp": 57.1428571429,
+        "correctness_whisper": 0
+    },
+    "S08725_L0200_E013": {
+        "prompt": "the essence of the craftsman will never leave the work",
+        "signal": "S08725_L0200_E013",
+        "response": "the essence of a craftsman will never leave the work",
+        "whisper_signal": " The essence of the craftsman will never leave the work.",
+        "whisper_msbg": " The essence of the Crossman will never leave the work.",
+        "correctness_resp": 90.0,
+        "correctness_whisper": 0
+    },
+    "S08793_L0200_E013": {
+        "prompt": "and it would matter to james too",
+        "signal": "S08793_L0200_E013",
+        "response": "and it would matter to james too",
+        "whisper_signal": " And it would matter to James too.",
+        "whisper_msbg": " And it would matter to James too.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08862_L0200_E013": {
+        "prompt": "he was very good with them as the phrase went",
+        "signal": "S08862_L0200_E013",
+        "response": "he was very good with them as the phase went",
+        "whisper_signal": " He was very good with them as the phrase went.",
+        "whisper_msbg": " He was very good with them as the phrase went.",
+        "correctness_resp": 90.0,
+        "correctness_whisper": 0
+    },
+    "S08931_L0200_E013": {
+        "prompt": "she was great fun charming and kind says a friend",
+        "signal": "S08931_L0200_E013",
+        "response": "she was great fun charming and kind said a friend",
+        "whisper_signal": " She was great fun, charming and kind, says a friend.",
+        "whisper_msbg": " She was great fun, charming and kind, so the friend.",
+        "correctness_resp": 90.0,
+        "correctness_whisper": 0
+    },
+    "S09069_L0200_E013": {
+        "prompt": "he didn't want to play the game part time",
+        "signal": "S09069_L0200_E013",
+        "response": "he didn't want to play the game part time",
+        "whisper_signal": " You didn't want to play the game part-time.",
+        "whisper_msbg": " He didn't want to play the game part-time.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09101_L0200_E013": {
+        "prompt": "surely such a creature cannot be of use to us",
+        "signal": "S09101_L0200_E013",
+        "response": "surely such a creature cannot be of use to us",
+        "whisper_signal": " Surely such a creature can't be of use to us.",
+        "whisper_msbg": " Surely such a creature can't be abused to us.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09255_L0200_E013": {
+        "prompt": "i don't want to tell you right now",
+        "signal": "S09255_L0200_E013",
+        "response": "i don't want to tell you right now",
+        "whisper_signal": " I don't want to tell you right now.",
+        "whisper_msbg": " I don't want to tell you that now.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09546_L0200_E013": {
+        "prompt": "these are the army and the police out of uniform",
+        "signal": "S09546_L0200_E013",
+        "response": "these are the police and the army out of uniform",
+        "whisper_signal": " These are the Army and the police out of uniform.",
+        "whisper_msbg": " boom shoe",
+        "correctness_resp": 80.0,
+        "correctness_whisper": 0
+    },
+    "S09616_L0200_E013": {
+        "prompt": "the private dirt track led directly to it",
+        "signal": "S09616_L0200_E013",
+        "response": "the private dirt track lead directly to it",
+        "whisper_signal": " The private dirt track led directly to it.",
+        "whisper_msbg": " The private dirt track led directly to it.",
+        "correctness_resp": 87.5,
+        "correctness_whisper": 0
+    },
+    "S09625_L0200_E013": {
+        "prompt": "he made a sudden dash for the undergrowth",
+        "signal": "S09625_L0200_E013",
+        "response": "he made a sudden dash for the undergrowth",
+        "whisper_signal": " He made a sudden dash for the undergrant.",
+        "whisper_msbg": " He made a sudden dash for the undergrant.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09704_L0200_E013": {
+        "prompt": "how can i tell them how i feel about it",
+        "signal": "S09704_L0200_E013",
+        "response": "how can i tell them how i feel about it",
+        "whisper_signal": " How can I tell them how I feel about it?",
+        "whisper_msbg": " How can I tell them how I feel about it?",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09913_L0200_E013": {
+        "prompt": "he spoke to the financial controller too",
+        "signal": "S09913_L0200_E013",
+        "response": "we spoke to the financial controller too",
+        "whisper_signal": " He spoke to the financial controller too.",
+        "whisper_msbg": " He spoke to the financial control at two.",
+        "correctness_resp": 85.7142857143,
+        "correctness_whisper": 0
+    },
+    "S08540_L0200_E019": {
+        "prompt": "i bet you haven't any more than i did",
+        "signal": "S08540_L0200_E019",
+        "response": "i bet you haven't any more than i did",
+        "whisper_signal": " I bet you haven't anymore than I do.",
+        "whisper_msbg": " I bet you haven't anymore than I did.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08574_L0200_E019": {
+        "prompt": "he couldn't make any sense of it at all",
+        "signal": "S08574_L0200_E019",
+        "response": "he couldn't make any sense of it at all",
+        "whisper_signal": " He couldn't make any sense of the tool.",
+        "whisper_msbg": " He couldn't make any sense of it at all.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08780_L0200_E019": {
+        "prompt": "just tell me what i need to know",
+        "signal": "S08780_L0200_E019",
+        "response": "just tell me what i need to know",
+        "whisper_signal": " Just tell me what I need to know.",
+        "whisper_msbg": " Just tell me what I need to know.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08869_L0200_E019": {
+        "prompt": "but he would not be following or watching her",
+        "signal": "S08869_L0200_E019",
+        "response": "but he would not be following or watching her",
+        "whisper_signal": " But he would not be following or watching her.",
+        "whisper_msbg": " But he would not be following or watching her.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08976_L0200_E019": {
+        "prompt": "the question was what should he say",
+        "signal": "S08976_L0200_E019",
+        "response": "the question was what should he say",
+        "whisper_signal": " The question wants what should he say?",
+        "whisper_msbg": " The question was, what should he say?",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08979_L0200_E019": {
+        "prompt": "i remember the teacher who hit me with a stick",
+        "signal": "S08979_L0200_E019",
+        "response": "i remember the teacher who hit me with a stick",
+        "whisper_signal": " I remember the teacher who hit me with a stick.",
+        "whisper_msbg": " I will under the teacher who hit me with a stick.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08987_L0200_E019": {
+        "prompt": "he did not want anything to go wrong",
+        "signal": "S08987_L0200_E019",
+        "response": "he did not want anything to go wrong",
+        "whisper_signal": " He did not want anything to go wrong.",
+        "whisper_msbg": " He did not want anything to go wrong.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09088_L0200_E019": {
+        "prompt": "in the meantime keep looking over your shoulder",
+        "signal": "S09088_L0200_E019",
+        "response": "in the meantime keep looking over your shoulder",
+        "whisper_signal": "\u96fb\u4e86 timer unterlookin teacherthere's a show every time",
+        "whisper_msbg": " In the meantime keep looking over your shoulder.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09203_L0200_E019": {
+        "prompt": "it's no use going now carmen told him",
+        "signal": "S09203_L0200_E019",
+        "response": "it's no use going there carmen told him",
+        "whisper_signal": " It's no use going now, common-told him.",
+        "whisper_msbg": " It's no use going now, common told him.",
+        "correctness_resp": 87.5,
+        "correctness_whisper": 0
+    },
+    "S09245_L0200_E019": {
+        "prompt": "when they eventually spoke it was to quarrel",
+        "signal": "S09245_L0200_E019",
+        "response": "when he eventually spoke it was to quarrel",
+        "whisper_signal": " When I eventually spoke, it was to quorum.",
+        "whisper_msbg": " When I eventually spoke, it was to quarrel.",
+        "correctness_resp": 87.5,
+        "correctness_whisper": 0
+    },
+    "S09271_L0200_E019": {
+        "prompt": "i don't want to go home sir",
+        "signal": "S09271_L0200_E019",
+        "response": "i don't want to go home sir",
+        "whisper_signal": " I don't want to go home, sir.",
+        "whisper_msbg": " I don't want to go home, sir.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09298_L0200_E019": {
+        "prompt": "far as i know he's still there",
+        "signal": "S09298_L0200_E019",
+        "response": "as far as i know he's still there",
+        "whisper_signal": " As far as I know, he's still bad.",
+        "whisper_msbg": " Far as I know, he's still there.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09397_L0200_E019": {
+        "prompt": "it isn't like going to the lavatory",
+        "signal": "S09397_L0200_E019",
+        "response": "this isn't like going to the lavatory",
+        "whisper_signal": " This is like going to the bathroom.",
+        "whisper_msbg": " We just need to go into the laboratory.",
+        "correctness_resp": 85.7142857143,
+        "correctness_whisper": 0
+    },
+    "S09571_L0200_E019": {
+        "prompt": "this is thought to reflect a selection bias",
+        "signal": "S09571_L0200_E019",
+        "response": "this is thought to select a selection by us ",
+        "whisper_signal": " This is thought to reflect a selection bias.",
+        "whisper_msbg": " Whio Llyw<|cy|>",
+        "correctness_resp": 75.0,
+        "correctness_whisper": 0
+    },
+    "S09628_L0200_E019": {
+        "prompt": "i'm not going to please you by doing that",
+        "signal": "S09628_L0200_E019",
+        "response": "i'm not going to please you by doing that",
+        "whisper_signal": " I'm not going to please you by doing that.",
+        "whisper_msbg": " I'm not going to please you by doing that.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09841_L0200_E019": {
+        "prompt": "the life giving wind will come soon",
+        "signal": "S09841_L0200_E019",
+        "response": "a life giving wind will come soon",
+        "whisper_signal": " The nice giving win will come soon.",
+        "whisper_msbg": " The life given we will come soon.",
+        "correctness_resp": 85.7142857143,
+        "correctness_whisper": 0
+    },
+    "S09900_L0200_E019": {
+        "prompt": "and what was the rest of it",
+        "signal": "S09900_L0200_E019",
+        "response": "and what was the rest of it",
+        "whisper_signal": " And what was the rest of it?",
+        "whisper_msbg": " And what was the rest of it?",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09972_L0200_E019": {
+        "prompt": "the fifth aircraft returned with its torpedo",
+        "signal": "S09972_L0200_E019",
+        "response": "the aircraft returned with its torpedo",
+        "whisper_signal": " The fifth aircraft returned with its torpedo.",
+        "whisper_msbg": " The fifth aircraft returned with its torpedo.",
+        "correctness_resp": 85.7142857143,
+        "correctness_whisper": 0
+    },
+    "S08566_L0200_E021": {
+        "prompt": "there was an unkempt look about him",
+        "signal": "S08566_L0200_E021",
+        "response": "there was an unkempt look about him",
+        "whisper_signal": " I'll put it on the can to look about it.",
+        "whisper_msbg": " esta9 el",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08614_L0200_E021": {
+        "prompt": "replace the paper and the lid and cook another hour",
+        "signal": "S08614_L0200_E021",
+        "response": "release the paper and lid and cook another hour",
+        "whisper_signal": " Replace the paper and the lid and cook another hour.",
+        "whisper_msbg": " hola to'i hau a employed cael drama.",
+        "correctness_resp": 80.0,
+        "correctness_whisper": 0
+    },
+    "S08897_L0200_E021": {
+        "prompt": "i don't think anyone should take any notice of them",
+        "signal": "S08897_L0200_E021",
+        "response": "i don't think anyone should take any notice of them",
+        "whisper_signal": " I don't think anyone should take any notice of them.",
+        "whisper_msbg": " I don't think anyone should take any notice of them.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08899_L0200_E021": {
+        "prompt": "i am talking about a statutory register",
+        "signal": "S08899_L0200_E021",
+        "response": "i am talking about a statutory register",
+        "whisper_signal": " I am talking about a statutory register.",
+        "whisper_msbg": " I'm talking about a statutory register.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09205_L0200_E021": {
+        "prompt": "his senior registrar did all his operating",
+        "signal": "S09205_L0200_E021",
+        "response": "his senior registrar did all his operating",
+        "whisper_signal": " This senior register is all he is operating.",
+        "whisper_msbg": " Please see me about your stride in all his operating.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09264_L0200_E021": {
+        "prompt": "i've had to be very strong through this",
+        "signal": "S09264_L0200_E021",
+        "response": "i've had to be very strong through this",
+        "whisper_signal": " I had to be very strong through this.",
+        "whisper_msbg": " I've had to be very strong through this.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09476_L0200_E021": {
+        "prompt": "i wouldn't repeat what i said not to anybody",
+        "signal": "S09476_L0200_E021",
+        "response": "i wouldn't repeat what i said to anybody",
+        "whisper_signal": " I wouldn't repeat what I said, not to anybody.",
+        "whisper_msbg": " I wouldn't repeat what I said, not to anybody.",
+        "correctness_resp": 88.8888888889,
+        "correctness_whisper": 0
+    },
+    "S09500_L0200_E021": {
+        "prompt": "it was a silly thing to say",
+        "signal": "S09500_L0200_E021",
+        "response": "it was a silly thing to say",
+        "whisper_signal": " It was a silly thing to say.",
+        "whisper_msbg": " It was a silly thing to say.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09529_L0200_E021": {
+        "prompt": "so here i am in this damp cell now",
+        "signal": "S09529_L0200_E021",
+        "response": "so here i am in this damp cell now",
+        "whisper_signal": " So here I am in this dump cell now.",
+        "whisper_msbg": " So here I am in this dump cell now.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09589_L0200_E021": {
+        "prompt": "you want to go over there then",
+        "signal": "S09589_L0200_E021",
+        "response": "you want to go over there then",
+        "whisper_signal": " You want to go into the bathroom?",
+        "whisper_msbg": " You want to go as a man then?",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09846_L0200_E021": {
+        "prompt": "come and look at this lot lad",
+        "signal": "S09846_L0200_E021",
+        "response": "come and look at this lot lad",
+        "whisper_signal": " Come and look at this not lad.",
+        "whisper_msbg": " Come and look at this lot, lad.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09920_L0200_E021": {
+        "prompt": "it was worse than the first time",
+        "signal": "S09920_L0200_E021",
+        "response": "it was worse than the first time",
+        "whisper_signal": " It was worse than the first time.",
+        "whisper_msbg": " Put your worst in the first time.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S08651_L0200_E018": {
+        "prompt": "there wouldn't be any room for us to be us",
+        "signal": "S08651_L0200_E018",
+        "response": "there wouldn't be any for us to be us",
+        "whisper_signal": " There wouldn't be any room for us to be us.",
+        "whisper_msbg": " I won't be anyone for us to be up.",
+        "correctness_resp": 90.0,
+        "correctness_whisper": 0
+    },
+    "S08707_L0200_E018": {
+        "prompt": "be as realistic and objective as you can",
+        "signal": "S08707_L0200_E018",
+        "response": "subjective as you can",
+        "whisper_signal": " The is realistic and objective as you can.",
+        "whisper_msbg": " Who is the most kind of objective as you can?",
+        "correctness_resp": 37.5,
+        "correctness_whisper": 0
+    },
+    "S08843_L0200_E018": {
+        "prompt": "but it's only just gone four o'clock",
+        "signal": "S08843_L0200_E018",
+        "response": "",
+        "whisper_signal": " But it's only just going for boring class.",
+        "whisper_msbg": " Thank you.",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S08952_L0200_E018": {
+        "prompt": "it is not business as usual with china",
+        "signal": "S08952_L0200_E018",
+        "response": "it was not business as usual with china",
+        "whisper_signal": " It is not business as usual with China.",
+        "whisper_msbg": " Let's go!",
+        "correctness_resp": 87.5,
+        "correctness_whisper": 0
+    },
+    "S09071_L0200_E018": {
+        "prompt": "would such a document be difficult to trace",
+        "signal": "S09071_L0200_E018",
+        "response": "would such a document be difficult to",
+        "whisper_signal": " With such a document, be difficult to trace.",
+        "whisper_msbg": " Please stand a motion please. Professor Fermin,osedacao Dr waste laughed at to C",
+        "correctness_resp": 87.5,
+        "correctness_whisper": 0
+    },
+    "S09188_L0200_E018": {
+        "prompt": "there will be no need for that",
+        "signal": "S09188_L0200_E018",
+        "response": "",
+        "whisper_signal": " There will be no need for that.",
+        "whisper_msbg": "",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S09325_L0200_E018": {
+        "prompt": "i wouldn't dream of taking them before a race",
+        "signal": "S09325_L0200_E018",
+        "response": "i have enjoyed taking oats",
+        "whisper_signal": " I would agree that taking the full events.",
+        "whisper_msbg": " I would enjoy seeing that person in the early days.",
+        "correctness_resp": 22.2222222222,
+        "correctness_whisper": 0
+    },
+    "S09345_L0200_E018": {
+        "prompt": "we have had discussion about the word federal",
+        "signal": "S09345_L0200_E018",
+        "response": "we have had a discussion about",
+        "whisper_signal": " We have had discussion about the graduate.",
+        "whisper_msbg": " What we do have for the extension private? systems. by Walter D.",
+        "correctness_resp": 62.5,
+        "correctness_whisper": 0
+    },
+    "S09366_L0200_E018": {
+        "prompt": "how did you know about my father and my uncle",
+        "signal": "S09366_L0200_E018",
+        "response": "",
+        "whisper_signal": " How did you know about my song?",
+        "whisper_msbg": "",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S09793_L0200_E018": {
+        "prompt": "down from them were two more men",
+        "signal": "S09793_L0200_E018",
+        "response": "",
+        "whisper_signal": " Don't forget you were two young men,",
+        "whisper_msbg": " And I'm going to end now at the End Clock",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S09844_L0200_E018": {
+        "prompt": "i thought we hadn't seen the last of her",
+        "signal": "S09844_L0200_E018",
+        "response": "i thought we hadn't seen the last of her",
+        "whisper_signal": " I thought we hadn't seen the last thing.",
+        "whisper_msbg": " I hope you haven't seen that on the press.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09860_L0200_E018": {
+        "prompt": "she herself was different for one thing",
+        "signal": "S09860_L0200_E018",
+        "response": "for wednesday",
+        "whisper_signal": " She herself is different from I.",
+        "whisper_msbg": " Who you thought was the book, oh service or change?",
+        "correctness_resp": 14.2857142857,
+        "correctness_whisper": 0
+    },
+    "S09865_L0200_E018": {
+        "prompt": "what kind of book she give you pal",
+        "signal": "S09865_L0200_E018",
+        "response": "",
+        "whisper_signal": " What kind of books you get you, pal?",
+        "whisper_msbg": " Thank you so much.",
+        "correctness_resp": 0.0,
+        "correctness_whisper": 0
+    },
+    "S09884_L0200_E018": {
+        "prompt": "it was about the future of the soviet union",
+        "signal": "S09884_L0200_E018",
+        "response": "it was about the future of the soviet union",
+        "whisper_signal": " It was about the future of the Soviet Union.",
+        "whisper_msbg": " It was about the future of the Soviet Union.",
+        "correctness_resp": 100.0,
+        "correctness_whisper": 0
+    },
+    "S09892_L0200_E018": {
+        "prompt": "all we have to do is listen",
+        "signal": "S09892_L0200_E018",
+        "response": "all you have to do is listen",
+        "whisper_signal": " We have to do this, missing.",
+        "whisper_msbg": " So that would have to do with this question.",
+        "correctness_resp": 85.7142857143,
+        "correctness_whisper": 0
+    },
+    "S09904_L0200_E018": {
+        "prompt": "host performance is said to be unaffected by the board",
+        "signal": "S09904_L0200_E018",
+        "response": "unaffected by the",
+        "whisper_signal": " Those at work for them is said to be unaffected by the word.",
+        "whisper_msbg": " Thank you so much for coming.",
+        "correctness_resp": 30.0,
+        "correctness_whisper": 0
+    }
+}

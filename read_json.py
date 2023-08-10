@@ -10,10 +10,11 @@ def read_speech(prompt, scene, n_words, hits, listener, system, correctness, res
 def read_listeners():
     listeners = []
     with open('json_data/listeners.json') as listener_data:
-        json_data = json.loads(listener_data)
-    for k,v in json_data:
+        json_data = json.load(listener_data)
+    for k,v in json_data.items():
         l = listener(v['name'], v['audiogram_cfs'], v['audiogram_levels_l'], v['audiogram_levels_r'])   
         listeners.append(l)
+    # print(listeners)
     return listeners
 
 
@@ -38,7 +39,7 @@ def read_speeches(listener_id):
         volume = i['volume']
         signal = i['signal']
         speech = read_speech(prompt, scene, n_words, hits, listener, system, correctness, response, volume, signal)
-        print(speech.__dict__)
+        # print(speech.__dict__)
         speeches.append(speech)
     
     return speeches

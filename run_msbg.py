@@ -49,13 +49,13 @@ def msbg(input, output, audiogram):
 
 
 def run_msbg(signals, li: listener):
-    listener = li.listener
+    listener = li.name
     audiogram = li.get_audiogram()
     for signal in signals:
         file = get_file(signal)
         output = out_file(signal, listener)
         msbg(file, output, audiogram)
-        print(file+'transfer msbg success')
+        print(signal+' transfer msbg success')
 
 
 
