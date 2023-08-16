@@ -18,9 +18,9 @@ def read_listeners():
     return listeners
 
 
-def read_speeches(listener_id):
+def read_speeches(listener_id, system_id, type):
     speeches = []
-    with open('json_data/CEC1.train.1.json') as json_data:
+    with open('json_data/train.json') as json_data:
         json_list = json.load(json_data)
         json_data.close()
     for i in json_list:
@@ -29,11 +29,11 @@ def read_speeches(listener_id):
         n_words = i['n_words']
         hits = i['hits']
         listener = i['listener']
-        if listener != listener_id:
+        if type == 'l' and listener != listener_id:
             continue
         system = i['system']
-        # if system != "E001":
-        #     continue
+        if type == 's' and system != system_id:
+            continue
         correctness = i['correctness']
         response = i['response']
         volume = i['volume']

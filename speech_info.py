@@ -69,5 +69,21 @@ class result_json:
 
         self.score_signal = score_signal # difference between prompt and whisper signal
         self.score_msbg = score_msbg # difference between response and msbg_whisper
+
+class System:
+    def __init__(self, system) -> None:
+        self.system = system
+        self.speeches = []
+        self.listeners = []
+    
+    def set_speeches(self, speeches: list):
+        self.speeches = speeches
+
+    def set_listeners(self, listeners: list):
+        self.listeners = listeners
+
+    def add_speech(self, speech: Speech):
+        self.speeches.append(speech)
+
         
     

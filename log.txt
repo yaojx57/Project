@@ -1,0 +1,2 @@
+INFO:root:rmse score is 
+INFO:root:E001 rmse score is: 48.792188659916945

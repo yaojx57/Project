@@ -16,5 +16,5 @@ def cal_RMSE(actual_scores: list, pre_scores: list):
     MSE = np.square(np.subtract(actual_scores,pre_scores)).mean() 
 
     RMSE = math.sqrt(MSE)
-    print('Root Mean Square Error is '+RMSE)
+    print('Root Mean Square Error is '+str(RMSE))
     return RMSE

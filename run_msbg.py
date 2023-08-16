@@ -13,13 +13,13 @@ from clarity.utils.file_io import read_signal, write_signal
 
 # get input files name 
 def get_file(signal):
-    filename = '../../data/clarity_CPC2_data/clarity_data/HA_outputs/train.1/CEC1/'+signal+'.wav'
+    filename = '../../data/clarity_CPC2_data/clarity_data/HA_outputs/train/'+signal+'.wav'
     return filename
 
 
 # output files generate
-def out_file(signal, listener):
-    folder = '../../data/output/'+listener
+def out_file(signal):
+    folder = '../../data/output/'
     if not os.path.exists(folder):
         os.makedirs(folder)
     filename = folder + '/' + signal + '_output.wav'
@@ -49,13 +49,13 @@ def msbg(input, output, audiogram):
 
 
 def run_msbg(signals, li: listener):
-    listener = li.name
     audiogram = li.get_audiogram()
     for signal in signals:
         file = get_file(signal)
-        output = out_file(signal, listener)
-        msbg(file, output, audiogram)
-        print(signal+' transfer msbg success')
+        output = out_file(signal)
+        if not os.path.isfile(out_file(signal)):
+            msbg(file, output, audiogram)
+            print(signal+' transfer msbg success')
 
 
 
