@@ -33,9 +33,41 @@ class MySubstituteWords(jiwer.AbstractTransform):
         )
 
     def process_list(self, inp):
-        print('inp is --------------')
-        print(inp)
         return [self.process_string(s) for s in inp]
+    
+
+class ReduceToListOfWords(jiwer.AbstractTransform):
+    """
+    Transforms a single input sentence, or a list of input sentences, into
+    a list of list of words, which is the expected format for calculating the
+    edit operations between two input sentences.
+
+    A sentence is assumed to be a string, where words are delimited by a token
+    (such as ` `, space). Each string is expected to contain only a single sentence.
+    Empty strings (no output) are removed for the list
+    """
+
+    def __init__(self, word_delimiter: str = " "):
+        """
+        :param word_delimiter: the character which delimits words. Default is ` ` (space).
+        """
+        self.word_delimiter = word_delimiter
+
+    def process_string(self, s: str):
+        return [w for w in s.split(self.word_delimiter) if len(w) >= 1]
+
+    def process_list(self, inp):
+        sentence_collection = []
+
+        for sentence in inp:
+            list_of_words = self.process_string(sentence)[0]
+
+            sentence_collection.append(list_of_words)
+
+        if len(sentence_collection) == 0:
+            return []
+
+        return sentence_collection
 
 
 class MyRemovePunctuation(jiwer.AbstractTransform):
@@ -123,10 +155,19 @@ class SentenceScorer:
         self.phoneme_transformation = None
         if pron_dict is not None:
             self.transformation = jiwer.Compose(
-                [self.transformation, MySubstituteWords(pron_dict.pron_dict)]
+                [jiwer.RemoveKaldiNonWords(),
+                jiwer.Strip(),
+                MyRemovePunctuation("!*#,?"),
+                jiwer.ToUpperCase(),
+                jiwer.RemoveMultipleSpaces(),
+                jiwer.RemoveWhiteSpace(replace_by_space=True),
+                # jiwer.SentencesToListOfWords(word_delimiter=" ")
+                jiwer.ReduceToListOfListOfWords(word_delimiter=" "),
+                # MySubstituteWords(pron_dict.pron_dict)
+                ]
             )
             self.phoneme_transformation = jiwer.Compose(
-                [self.transformation, jiwer.ReduceToListOfListOfWords(word_delimiter=" ")]
+                [self.transformation]
             )
 
         self.contractions = contractions
@@ -149,21 +190,25 @@ class SentenceScorer:
 
         # print(type(sentence_forms))
         # print(self.transformation)
+        print(type(ref))
+        print(type(sentence_forms))
 
         measures = [
             jiwer.compute_measures(
-                ref,
-                str(sentence_forms[0]),
-                # truth_transform=self.transformation,
-                # hypothesis_transform=self.transformation,
+                [ref],
+                sentence_forms,
+                truth_transform=self.transformation,
+                hypothesis_transform=self.transformation,
             )
         ]
         print(measures)
 
         hits = [m["hits"] for m in measures]
         best_index = hits.index(max(hits))
+        # print('ref is ---------------')
+        # print(self.transformation(ref)[0])
         return (
-            len(self.transformation(ref)),  # n words in the reference
+            len(self.transformation(ref)[0]),  # n words in the reference
             measures[best_index]["hits"],  # n hits for best sentence form
             sentence_forms[best_index],  # Best form for the hypothesis
         )
@@ -194,7 +239,7 @@ def score_listenhome(responses, scorer):
     return responses
 
 
-def main():
+def score(ref, hyp):
     """Main entry point"""
     # parser = argparse.ArgumentParser()
     # parser.add_argument("input_files", type=str)
@@ -208,11 +253,12 @@ def main():
     # print(scorer.get_word_sequence('i am writing a book on the subject'))
     # print(scorer)
 
-    score = scorer.score('i am writing a book on the subject', 'All right. Thank you.')
+    score = scorer.score(ref, hyp)
 
+    return score
 
     # score = jiwer.compute_measures('i am writing a book on the subject', 'All right. Thank you.')
-    print(score)
+    # print(score)
     # for filename in glob.glob(args.input_files):
     #     file = Path(filename).name
     #     responses = json.load(open(filename, "r", encoding="utf-8"))
