@@ -1,2 +1,7 @@
 INFO:root:rmse score is 
 INFO:root:E001 rmse score is: 48.792188659916945
+INFO:root:E003 rmse score is: 84.2516827951773
+INFO:root:E005 rmse score is: 32.0105972595543
+INFO:root:E007 rmse score is: 77.70544582718784
+INFO:root:E009 rmse score is: 82.26025958584394
+INFO:root:E010 rmse score is: 75.46113634572727

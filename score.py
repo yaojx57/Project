@@ -5,10 +5,11 @@ import numpy as np
 
 
 from jiwer import wer
+from score_transcription import score
 
 
 def check_wer(reference, hypothesis):
-    error = wer(reference, hypothesis)
+    error = score(reference, hypothesis)
     return error
 
 
@@ -18,3 +19,7 @@ def cal_RMSE(actual_scores: list, pre_scores: list):
     RMSE = math.sqrt(MSE)
     print('Root Mean Square Error is '+str(RMSE))
     return RMSE
+
+
+def avg(lst):
+    return sum(lst) / len(lst)

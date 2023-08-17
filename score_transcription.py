@@ -190,18 +190,20 @@ class SentenceScorer:
 
         # print(type(sentence_forms))
         # print(self.transformation)
-        print(type(ref))
-        print(type(sentence_forms))
+        # print(type(ref))
+        # print(sentence_forms)
+
 
         measures = [
             jiwer.compute_measures(
-                [ref],
-                sentence_forms,
+                ref,
+                m,
                 truth_transform=self.transformation,
                 hypothesis_transform=self.transformation,
             )
+            for m in sentence_forms
         ]
-        print(measures)
+        # print(measures)
 
         hits = [m["hits"] for m in measures]
         best_index = hits.index(max(hits))
@@ -241,32 +243,14 @@ def score_listenhome(responses, scorer):
 
 def score(ref, hyp):
     """Main entry point"""
-    # parser = argparse.ArgumentParser()
-    # parser.add_argument("input_files", type=str)
-    # parser.add_argument("save_dir", type=str)
-    # args = parser.parse_args()
 
-    contraction = Contractions("contractions.csv")
-    pron_dict = PronDictionary("beep-1.0")
-    pron_dict.add_dict("oov_dict.txt")
+    contraction = Contractions("jiwer_score/contractions.csv")
+    pron_dict = PronDictionary("jiwer_score/beep-1.0")
+    pron_dict.add_dict("jiwer_score/oov_dict.txt")
     scorer = SentenceScorer(pron_dict, contraction)
-    # print(scorer.get_word_sequence('i am writing a book on the subject'))
-    # print(scorer)
 
-    score = scorer.score(ref, hyp)
+    temp = scorer.score(ref, hyp)
+
+    score = temp[1]/temp[0]
 
     return score
-
-    # score = jiwer.compute_measures('i am writing a book on the subject', 'All right. Thank you.')
-    # print(score)
-    # for filename in glob.glob(args.input_files):
-    #     file = Path(filename).name
-    #     responses = json.load(open(filename, "r", encoding="utf-8"))
-    #     responses = score_listenhome(responses, scorer)
-    #     json.dump(
-    #         responses, open(f"{args.save_dir}/{file}", "w", encoding="utf-8"), indent=2
-    #     )
-
-
-if __name__ == "__main__":
-    main()

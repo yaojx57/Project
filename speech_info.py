@@ -55,7 +55,7 @@ class scene:
 
 
 class result_json:
-    def __init__(self, signal, prompt, response, whisper_signal, whisper_msbg, correctness_resp, correctness_whisper, score_signal, score_msbg) -> None:
+    def __init__(self, signal, prompt, response, whisper_signal, whisper_msbg, correctness_resp, correctness_whisper, score_signal, score_msbg, match_correction) -> None:
         self.signal = signal
         
         self.prompt = prompt
@@ -69,6 +69,8 @@ class result_json:
 
         self.score_signal = score_signal # difference between prompt and whisper signal
         self.score_msbg = score_msbg # difference between response and msbg_whisper
+
+        self.match_correction = match_correction
 
 class System:
     def __init__(self, system) -> None:

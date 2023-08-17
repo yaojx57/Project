@@ -4,7 +4,7 @@ import whisper
 import json
 import logging
 
-from score import check_wer, cal_RMSE
+from score import check_wer, cal_RMSE, avg
 from speech_info import result_json, listener, Speech, System
 from read_json import read_speeches, read_listeners
 from run_msbg import run_msbg, out_file, get_file
@@ -16,8 +16,8 @@ logger.setLevel(logging.DEBUG)
 
 
 
-def read_info(signal, prompt,  response, whisper_signal, whisper_msbg, correctness_resp, correctness_whisper, score_signal, score_msbg):
-    result = result_json(signal, prompt, response, whisper_signal, whisper_msbg, correctness_resp, correctness_whisper, score_signal, score_msbg)
+def read_info(signal, prompt,  response, whisper_signal, whisper_msbg, correctness_resp, correctness_whisper, score_signal, score_msbg, match_correction):
+    result = result_json(signal, prompt, response, whisper_signal, whisper_msbg, correctness_resp, correctness_whisper, score_signal, score_msbg, match_correction)
     return result
 
 
@@ -27,6 +27,8 @@ def store_results(speeches: list[Speech], name, model):
 
     actual_scores = []
     pre_scores = []
+
+    matchs = []
     results = {}
     for speech in speeches:
         file = get_file(speech.signal)
@@ -38,18 +40,24 @@ def store_results(speeches: list[Speech], name, model):
         score_signal = check_wer(speech.prompt, whisper_signal)
         score_msbg = check_wer(speech.signal, whisper_msbg)
         actual_score = check_wer(speech.prompt, speech.response)
+        match_correction = check_wer(speech.prompt, whisper_msbg)
 
         result = read_info(speech.signal, speech.prompt, speech.response, 
-                        whisper_signal, whisper_msbg, speech.correctness, 0, score_signal, score_msbg)
+                        whisper_signal, whisper_msbg, speech.correctness, 0, score_signal, score_msbg, match_correction)
         
         print(speech.signal+' whisper process success')
         results[speech.signal] = result.__dict__
 
+        matchs.append(match_correction)
         pre_scores.append(score_msbg)
         actual_scores.append(actual_score)
     
     rmse = cal_RMSE(actual_scores, pre_scores)
-    logger.info(name+' RMSE score is: '+str(rmse))
+    avg_correction = avg(matchs)
+
+    logger.info(name+ ' RMSE score is: '+ str(rmse))
+    logger.info(name+ ' Correct score is: '+ avg_correction)
+
     with open('output/'+name+'_output.json','w') as json_file:
         json.dump(results, json_file)
 
@@ -123,9 +131,12 @@ def sort_system():
 
 
 def main():
-    sort_system()
-    # sort_listeners()
+    # if args['']:
+    #     pass
+    # sort_system()
+    sort_listeners()
     # msbg()
+    # print(score("i don't want us to apportion blame she said","i don't want to have to report he said"))
 
             
     
