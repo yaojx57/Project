@@ -9,10 +9,11 @@ parser.add_argument('-msbg', '--msbg', help='run msbg', type=bool)
 parser.add_argument('-whisper', '--whisper', help='run_whisper')
 parser.add_argument('-ratio', '--ratio', help='set ratio',default=0.5, type=float)
 parser.add_argument('-model', '--model', help='set model', default='base.en')
+parser.add_argument('-level', '--level', help='set audiogram level',default='l')
 # parser.add_argument('-i', '--input', type=str, help='input folder', required=True)
 # parser.add_argument('-o', '--output', type=str, help='out folder')
 # parser.add_argument('-type', '--type', type=str)
-# parser.add_argument('')
+parser.add_argument('-path', '--path', help='set path', default=None)
 args = vars(parser.parse_args())
 
 def main():
@@ -22,16 +23,20 @@ def main():
     if args['test']:
         sample_rate = 0.5
         model = 'base.en'
+        level = 'l'
     
     if args['model']:
         model = args['model']
+
+    if args['level']:
+        level = args['level']
 
     if args['ratio']:
         sample_rate = args['ratio']
 
     if args['msbg'] and not args['whisper']:
         print('MSBG processing!')
-        msbg()
+        msbg(path)
     elif not args['msbg'] and args['whisper']:
         if args['whisper'] == 'l':
             print('Whisper listener processing!')

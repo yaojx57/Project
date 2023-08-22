@@ -37,9 +37,9 @@ def read_info(signal, prompt,  response, whisper_signal, whisper_msbg, correctne
 
 
 def store_results(speeches: list[Speech], name, model, ratio, path: str=None):
-    #TODO seperate system and listener
     #results = {li_name+li.speech.system:{}}
     speeches = random_sample(speeches, ratio)
+    print('start process'+name)
 
     actual_scores = []
     pre_scores = []
@@ -81,7 +81,7 @@ def store_results(speeches: list[Speech], name, model, ratio, path: str=None):
     avg_correction = avg(matchs)
     avg_actual = avg(actual_scores)
     
-    print('{:^10}{:^15}{:^15}{:^15}{:^15}{:^15}'.format(name, rmse, avg_actual, avg_prediction, avg_correction,avg_whisper), file=source_file)
+    print('{:^10}{:^15.4f}{:^15.4f}{:^15.4f}{:^15.4f}{:^15.4f}'.format(name, rmse, avg_actual, avg_prediction, avg_correction,avg_whisper), file=source_file)
 
     logger.info(name+ ' RMSE score is: '+ str(rmse))
     logger.info(name+ ' Average Correct score is: '+ str(avg_correction))
@@ -92,7 +92,7 @@ def store_results(speeches: list[Speech], name, model, ratio, path: str=None):
 
 
 # run msbg according to listners' audiogram
-def msbg():
+def msbg(path, level: str='l'):
     # speeches = read_json('')
 
     # create dict of listener
@@ -108,13 +108,13 @@ def msbg():
     # run msbg
     for li in listeners:
         if len(li.speeches)>0:
-            run_msbg(li.signals, li)
+            run_msbg(li.signals, li, path)
     
     return listeners
 
 
 
-def sort_listeners(model: str=None, ratio: float=0.5, path: str=None):
+def sort_listeners(model_name: str=None, ratio: float=0.5, path: str=None):
     speeches = []
     listeners = read_listeners()
 
@@ -129,13 +129,14 @@ def sort_listeners(model: str=None, ratio: float=0.5, path: str=None):
         flag += 1
     # run whisper store results
         if not os.path.isfile('output/'+li.name+'_output.json'):
-            model = whisper.load_model("base.en" if model==None else model)
-            name = 'Listener-'+ li.name
+            print(model_name)
+            model = whisper.load_model(model_name)
+            name = li.name
             store_results(li.speeches, name, model, ratio, path)
 
 
 
-def sort_system(model: str=None, ratio: float=0.5, path: str=None):
+def sort_system(model_name: str=None, ratio: float=0.5, path: str=None):
 
     speeches = read_speeches(None, None, None)
     names = {}
@@ -154,8 +155,10 @@ def sort_system(model: str=None, ratio: float=0.5, path: str=None):
     
     for system in systems:
         if not os.path.isfile('output/'+system.system+'_output.json'):
-            model = whisper.load_model('base' if model==None else model)
-            name = 'System-'+ system.system
+            model = whisper.load_model(model_name)
+            name = system.system
+            print('Argument: Ratio{},  Model:{}')
+
             store_results(system.speeches, name, model, ratio, path)
 
 
@@ -165,6 +168,7 @@ def main():
     # sort_system()
     # sort_listeners()
     # msbg()
+    print('{:^10.4f}'.format(0.3143712923799367), file=source_file)
     return 1
             
     
