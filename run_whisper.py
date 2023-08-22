@@ -10,7 +10,6 @@ def file_name(listener, system, signal):
 
 
 def run_whisper(file, model):
-    #TODO 调整参数适配
     # model = whisper.load_model("base")
     result = model.transcribe(file)
     return result["text"]
@@ -20,7 +19,7 @@ def uniquify(path):
     counter = 1
 
     while os.path.exists(path):
-        path = filename + " (" + str(counter) + ")" + extension
+        path = filename + "__" + str(counter) + extension
         counter += 1
 
     return path

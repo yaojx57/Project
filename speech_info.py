@@ -22,12 +22,25 @@ class listener:
         self.level_r = audiogram_levels_r
         self.signals = []
         self.speeches = []
-    
-    def get_audiogram(self):
-        audiogram = Audiogram(
 
-            #TODO average listener level
-            levels = self.level_l,
+
+    @classmethod
+    def avg_level(list1, list2):
+        new_list = []
+        for i in range(len(list1)):
+            new_list.append((list1[i]+list2[i])/2)
+        return new_list
+    
+    def get_audiogram(self, level):
+        if level == 'l':
+            levels = self.level_l
+        elif level == 'r':
+            levels = self.level_r
+        elif level == 'avg':
+            levels = listener.avg_level(self.level_l+self.level_r)
+
+        audiogram = Audiogram(
+            levels,
             frequencies = self.freq
         )
         return audiogram
@@ -39,14 +52,7 @@ class listener:
         self.speeches = speeches
     
 
-    def create_signals():
-         
-        pass
-
-
-    @classmethod
-    def avg_level(self):
-        pass
+    
 
 
 class scene:

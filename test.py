@@ -8,7 +8,7 @@ import random
 from datetime import datetime
 from score import check_wer, cal_RMSE, avg
 from speech_info import result_json, listener, Speech, System
-from read_json import read_speeches, read_listeners
+from read_json import read_speeches, read_listeners, print_now
 from run_msbg import run_msbg, out_file, get_file
 from run_whisper import run_whisper, uniquify
 
@@ -16,8 +16,6 @@ from run_whisper import run_whisper, uniquify
 time = './log_file/{:%m-%d_%H-%M}.log'.format(datetime.now())
 
 source_file = open(uniquify('./output/output.txt'), 'w')
-print('{:^10}{:^15}{:^15}{:^15}{:^15}{:^15}'.format('System', 'RMSE', 'AVG Actual', 'AVG Pre', 'AVG Match','AVG Whisper'), file=source_file)
-
 
 logging.basicConfig(filename=time, format='%(asctime)s - %(levelname)s ------- %(message)s')
 logger=logging.getLogger() 
@@ -39,7 +37,7 @@ def read_info(signal, prompt,  response, whisper_signal, whisper_msbg, correctne
 def store_results(speeches: list[Speech], name, model, ratio, path: str=None):
     #results = {li_name+li.speech.system:{}}
     speeches = random_sample(speeches, ratio)
-    print('start process'+name)
+    print('Start Process '+name)
 
     actual_scores = []
     pre_scores = []
@@ -81,7 +79,7 @@ def store_results(speeches: list[Speech], name, model, ratio, path: str=None):
     avg_correction = avg(matchs)
     avg_actual = avg(actual_scores)
     
-    print('{:^10}{:^15.4f}{:^15.4f}{:^15.4f}{:^15.4f}{:^15.4f}'.format(name, rmse, avg_actual, avg_prediction, avg_correction,avg_whisper), file=source_file)
+    print_now(source_file, '{:^10}{:^15.4f}{:^15.4f}{:^15.4f}{:^15.4f}{:^15.4f}'.format(name, rmse, avg_actual, avg_prediction, avg_correction,avg_whisper))
 
     logger.info(name+ ' RMSE score is: '+ str(rmse))
     logger.info(name+ ' Average Correct score is: '+ str(avg_correction))
@@ -92,7 +90,7 @@ def store_results(speeches: list[Speech], name, model, ratio, path: str=None):
 
 
 # run msbg according to listners' audiogram
-def msbg(path, level: str='l'):
+def msbg(path: str=None, level: str='l'):
     # speeches = read_json('')
 
     # create dict of listener
@@ -108,13 +106,18 @@ def msbg(path, level: str='l'):
     # run msbg
     for li in listeners:
         if len(li.speeches)>0:
-            run_msbg(li.signals, li, path)
+            run_msbg(li.signals, li, path, level)
     
     return listeners
 
 
 
 def sort_listeners(model_name: str=None, ratio: float=0.5, path: str=None):
+
+    print_now(source_file, 'Argument: Ratio{},  Model:{}\n'.format(ratio, model_name))
+    print_now(source_file, '{:^10}{:^15}{:^15}{:^15}{:^15}{:^15}'.format('System', 'RMSE', 'AVG Actual', 'AVG Pre', 'AVG Match','AVG Whisper'))
+
+
     speeches = []
     listeners = read_listeners()
 
@@ -129,14 +132,19 @@ def sort_listeners(model_name: str=None, ratio: float=0.5, path: str=None):
         flag += 1
     # run whisper store results
         if not os.path.isfile('output/'+li.name+'_output.json'):
-            print(model_name)
             model = whisper.load_model(model_name)
             name = li.name
-            store_results(li.speeches, name, model, ratio, path)
-
+            if len(li.speeches)>0:
+                store_results(li.speeches, name, model, ratio, path)
+            else:
+                continue
 
 
 def sort_system(model_name: str=None, ratio: float=0.5, path: str=None):
+
+    print_now(source_file, 'Argument: Ratio{},  Model:{}\n'.format(ratio, model_name))
+    print_now(source_file, '{:^10}{:^15}{:^15}{:^15}{:^15}{:^15}'.format('System', 'RMSE', 'AVG Actual', 'AVG Pre', 'AVG Match','AVG Whisper'))
+
 
     speeches = read_speeches(None, None, None)
     names = {}
@@ -157,9 +165,10 @@ def sort_system(model_name: str=None, ratio: float=0.5, path: str=None):
         if not os.path.isfile('output/'+system.system+'_output.json'):
             model = whisper.load_model(model_name)
             name = system.system
-            print('Argument: Ratio{},  Model:{}')
-
-            store_results(system.speeches, name, model, ratio, path)
+            if len(system.speeches)>0:
+                store_results(system.speeches, name, model, ratio, path)
+            else:
+                continue
 
 
 def main():
