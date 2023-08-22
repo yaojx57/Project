@@ -2,13 +2,11 @@ import argparse
 import glob
 import itertools
 import json
-import logging
 import re
 from pathlib import Path
 
 import jiwer  # package for computing WER
 
-logging.basicConfig(level=logging.INFO, filename="score_listenhome.log")
 
 
 class MySubstituteWords(jiwer.AbstractTransform):
@@ -18,12 +16,10 @@ class MySubstituteWords(jiwer.AbstractTransform):
         self.substitutions = substitutions
 
     def process_string(self, s):
-        print('s is -------------')
-        print(s)
 
-        for word in s.split():
-            if word not in self.substitutions:
-                logging.info(f"OOV word: {word}")
+        # for word in s.split():
+        #     if word not in self.substitutions:
+        #         logging.info(f"OOV word: {word}")
 
         return " ".join(
             [
@@ -102,7 +98,7 @@ class PronDictionary:
         try:
             pron = self.pron_dict[word.upper()]
         except KeyError:
-            logging.info(f"OOV word: {word_upper}")
+            # logging.info(f"OOV word: {word_upper}")
             pron = word_upper
         if sep:
             pron = re.sub(" ", sep, pron)
@@ -148,26 +144,17 @@ class SentenceScorer:
                 jiwer.ToUpperCase(),
                 jiwer.RemoveMultipleSpaces(),
                 jiwer.RemoveWhiteSpace(replace_by_space=True),
-                # jiwer.SentencesToListOfWords(word_delimiter=" ")
-                jiwer.ReduceToListOfListOfWords(word_delimiter=" "),
+                jiwer.SentencesToListOfWords(word_delimiter=" "),
             ]
         )
         self.phoneme_transformation = None
         if pron_dict is not None:
             self.transformation = jiwer.Compose(
-                [jiwer.RemoveKaldiNonWords(),
-                jiwer.Strip(),
-                MyRemovePunctuation("!*#,?"),
-                jiwer.ToUpperCase(),
-                jiwer.RemoveMultipleSpaces(),
-                jiwer.RemoveWhiteSpace(replace_by_space=True),
-                # jiwer.SentencesToListOfWords(word_delimiter=" ")
-                jiwer.ReduceToListOfListOfWords(word_delimiter=" "),
-                # MySubstituteWords(pron_dict.pron_dict)
+                [self.transformation, MySubstituteWords(pron_dict.pron_dict)
                 ]
             )
             self.phoneme_transformation = jiwer.Compose(
-                [self.transformation]
+                [self.transformation, jiwer.SentencesToListOfWords(word_delimiter=" ")]
             )
 
         self.contractions = contractions
@@ -188,12 +175,6 @@ class SentenceScorer:
         else:
             sentence_forms = [hyp]
 
-        # print(type(sentence_forms))
-        # print(self.transformation)
-        # print(type(ref))
-        # print(sentence_forms)
-
-
         measures = [
             jiwer.compute_measures(
                 ref,
@@ -203,14 +184,12 @@ class SentenceScorer:
             )
             for m in sentence_forms
         ]
-        # print(measures)
 
         hits = [m["hits"] for m in measures]
         best_index = hits.index(max(hits))
-        # print('ref is ---------------')
-        # print(self.transformation(ref)[0])
+
         return (
-            len(self.transformation(ref)[0]),  # n words in the reference
+            len(self.transformation(ref)),  # n words in the reference
             measures[best_index]["hits"],  # n hits for best sentence form
             sentence_forms[best_index],  # Best form for the hypothesis
         )
@@ -254,3 +233,6 @@ def score(ref, hyp):
     score = temp[1]/temp[0]
 
     return score
+
+if __name__=='__main__':
+    print(score('i think you could consider that a brush off', 'i think you could consider that a brush'))

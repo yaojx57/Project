@@ -1,4 +1,5 @@
 import whisper
+import os
 
 
 
@@ -13,6 +14,16 @@ def run_whisper(file, model):
     # model = whisper.load_model("base")
     result = model.transcribe(file)
     return result["text"]
+
+def uniquify(path):
+    filename, extension = os.path.splitext(path)
+    counter = 1
+
+    while os.path.exists(path):
+        path = filename + " (" + str(counter) + ")" + extension
+        counter += 1
+
+    return path
 
 
 
