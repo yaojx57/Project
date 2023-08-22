@@ -14,9 +14,9 @@ from clarity.utils.file_io import read_signal, write_signal
 # get input files name 
 def get_file(signal, path: str=None):
     if path:
-        filename = path+'/clarity_CPC2_data/clarity_data/HA_outputs/train/'+signal+'.wav'
+        filename = path+'/clarity_CPC2_data/clarity_data/HA_outputs/signals/CEC1/'+signal+'.wav'
     else:
-        filename = '../../data/clarity_CPC2_data/clarity_data/HA_outputs/train/'+signal+'.wav'
+        filename = '../../data/clarity_CPC2_data/clarity_data/HA_outputs/signals/CEC1/'+signal+'.wav'
     return filename
 
 
@@ -59,7 +59,7 @@ def run_msbg(signals, li: listener, path: str=None):
     for signal in signals:
         file = get_file(signal, path)
         output = out_file(signal, path)
-        if not os.path.isfile(out_file(signal)):
+        if not os.path.isfile(out_file(signal, path)):
             msbg(file, output, audiogram)
             print(signal+' transfer msbg success')
 

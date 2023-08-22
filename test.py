@@ -92,7 +92,7 @@ def store_results(speeches: list[Speech], name, model, ratio, path: str=None):
 
 
 # run msbg according to listners' audiogram
-def msbg():
+def msbg(path: str=None):
     # speeches = read_json('')
 
     # create dict of listener
@@ -108,7 +108,7 @@ def msbg():
     # run msbg
     for li in listeners:
         if len(li.speeches)>0:
-            run_msbg(li.signals, li)
+            run_msbg(li.signals, li, path)
     
     return listeners
 
