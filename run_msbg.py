@@ -56,6 +56,7 @@ def msbg(input, output, audiogram):
 
 def run_msbg(signals, li: listener, path: str=None, level: str='l'):
     audiogram = li.get_audiogram(level)
+    print(audiogram)
     for signal in signals:
         file = get_file(signal, path)
         output = out_file(signal, path)
