@@ -21,11 +21,11 @@ def get_file(signal, path: str=None):
 
 
 # output files generate
-def out_file(signal, path: str=None):
+def out_file(signal, path: str=None, level: str='l'):
     if path:
-        folder = path + '/output/'
+        folder = path + '/output_' + level +'/'
     else:
-        folder = '../../data/output/'
+        folder = '../../data/output_{}/'.format(level)
     if not os.path.exists(folder):
         os.makedirs(folder)
     filename = folder + '/' + signal + '_output.wav'
@@ -56,13 +56,12 @@ def msbg(input, output, audiogram):
 
 def run_msbg(signals, li: listener, path: str=None, level: str='l'):
     audiogram = li.get_audiogram(level)
-    print(audiogram)
     for signal in signals:
         file = get_file(signal, path)
-        output = out_file(signal, path)
-        if not os.path.isfile(out_file(signal, path)):
-            msbg(file, output, audiogram)
-            print(signal+' transfer msbg success')
+        output = out_file(signal, path, level)
+        # if not os.path.isfile(out_file(signal, path)):
+        msbg(file, output, audiogram)
+        print(signal+' transfer msbg success')
 
 
 

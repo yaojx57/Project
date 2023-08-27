@@ -34,7 +34,7 @@ def read_info(signal, prompt,  response, whisper_signal, whisper_msbg, correctne
     return result
 
 
-def store_results(speeches: list[Speech], name, model, ratio, path: str=None):
+def store_results(speeches: list[Speech], name, model, ratio, path: str=None, level: str='l'):
     #results = {li_name+li.speech.system:{}}
     speeches = random_sample(speeches, ratio)
     print('Start Process '+name)
@@ -47,7 +47,7 @@ def store_results(speeches: list[Speech], name, model, ratio, path: str=None):
     results = {}
     for speech in speeches:
         file = get_file(speech.signal, path)
-        output = out_file(speech.signal, path)
+        output = out_file(speech.signal, path, level)
         
         whisper_signal = run_whisper(file, model)
         whisper_msbg = run_whisper(output, model)
@@ -107,14 +107,15 @@ def msbg(path: str=None, level: str='l'):
     for li in listeners:
         if len(li.speeches)>0:
             run_msbg(li.signals, li, path, level)
+            print(1)
     
     return listeners
 
 
 
-def sort_listeners(model_name: str=None, ratio: float=0.5, path: str=None):
+def sort_listeners(model_name: str=None, ratio: float=0.5, path: str=None, level: str='l'):
 
-    print_now(source_file, 'Argument: Ratio{},  Model:{}\n'.format(ratio, model_name))
+    print_now(source_file, 'Argument: Ratio: {},  Model: {}, Level: {}\n'.format(ratio, model_name, level))
     print_now(source_file, '{:^10}{:^15}{:^15}{:^15}{:^15}{:^15}'.format('System', 'RMSE', 'AVG Actual', 'AVG Pre', 'AVG Match','AVG Whisper'))
 
 
@@ -135,14 +136,14 @@ def sort_listeners(model_name: str=None, ratio: float=0.5, path: str=None):
             model = whisper.load_model(model_name)
             name = li.name
             if len(li.speeches)>0:
-                store_results(li.speeches, name, model, ratio, path)
+                store_results(li.speeches, name, model, ratio, path, level)
             else:
                 continue
 
 
-def sort_system(model_name: str=None, ratio: float=0.5, path: str=None):
+def sort_system(model_name: str=None, ratio: float=0.5, path: str=None, level: str='l'):
 
-    print_now(source_file, 'Argument: Ratio{},  Model:{}\n'.format(ratio, model_name))
+    print_now(source_file, 'Argument: Ratio: {},  Model: {}, Level: {}\n'.format(ratio, model_name, level))
     print_now(source_file, '{:^10}{:^15}{:^15}{:^15}{:^15}{:^15}'.format('System', 'RMSE', 'AVG Actual', 'AVG Pre', 'AVG Match','AVG Whisper'))
 
 
@@ -166,7 +167,7 @@ def sort_system(model_name: str=None, ratio: float=0.5, path: str=None):
             model = whisper.load_model(model_name)
             name = system.system
             if len(system.speeches)>0:
-                store_results(system.speeches, name, model, ratio, path)
+                store_results(system.speeches, name, model, ratio, path, level)
             else:
                 continue
 
