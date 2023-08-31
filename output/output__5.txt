@@ -1,0 +1,3 @@
+Argument: Ratio: 0.5,  Model: base.en, Level: l
+
+  System       RMSE        AVG Actual       AVG Pre       AVG Match     AVG Whisper  

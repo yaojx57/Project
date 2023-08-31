@@ -132,13 +132,15 @@ def sort_listeners(model_name: str=None, ratio: float=0.5, path: str=None, level
     for li in listeners:
         flag += 1
     # run whisper store results
-        if not os.path.isfile('output/'+li.name+'_output.json'):
+        if not os.path.isfile('output/'+li.name+'_'+level+'_output.json'):
             model = whisper.load_model(model_name)
-            name = li.name
+            name = li.name+'_'+level
             if len(li.speeches)>0:
                 store_results(li.speeches, name, model, ratio, path, level)
             else:
                 continue
+        else:
+            print('pass process '+li.name)
 
 
 def sort_system(model_name: str=None, ratio: float=0.5, path: str=None, level: str='l'):
@@ -163,13 +165,15 @@ def sort_system(model_name: str=None, ratio: float=0.5, path: str=None, level: s
         systems.append(temp)
     
     for system in systems:
-        if not os.path.isfile('output/'+system.system+'_output.json'):
+        if not os.path.isfile('output/'+system.system+'_'+level+'_output.json'):
             model = whisper.load_model(model_name)
-            name = system.system
+            name = system.system+'_'+level
             if len(system.speeches)>0:
                 store_results(system.speeches, name, model, ratio, path, level)
             else:
                 continue
+        else:
+            print('pass process '+system.system)
 
 
 def main():
