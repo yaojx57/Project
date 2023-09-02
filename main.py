@@ -1,6 +1,6 @@
 import argparse
 
-from test import sort_listeners, sort_system, msbg
+from run import sort_listeners, sort_system, msbg
 
 
 parser = argparse.ArgumentParser()
@@ -40,10 +40,10 @@ def main():
     elif not args['msbg'] and args['whisper']:
         if args['whisper'] == 'l':
             print('Whisper Listener processing!')
-            sort_listeners(model, sample_rate, path)
+            sort_listeners(model, sample_rate, path, level)
         elif args['whisper'] == 's':
             print('Whisper System processing!')
-            sort_system(model, sample_rate, path)
+            sort_system(model, sample_rate, path, level)
     
     return 0
     

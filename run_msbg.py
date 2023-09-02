@@ -59,9 +59,9 @@ def run_msbg(signals, li: listener, path: str=None, level: str='l'):
     for signal in signals:
         file = get_file(signal, path)
         output = out_file(signal, path, level)
-        # if not os.path.isfile(out_file(signal, path)):
-        msbg(file, output, audiogram)
-        print(signal+' transfer msbg success')
+        if not os.path.isfile(out_file(signal, path, level)):
+            msbg(file, output, audiogram)
+            print(signal+' transfer msbg success')
 
 
 

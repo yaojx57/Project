@@ -61,7 +61,7 @@ class scene:
 
 
 class result_json:
-    def __init__(self, signal, prompt, response, whisper_signal, whisper_msbg, correctness_resp, correctness_whisper, score_signal, score_msbg, match_correction) -> None:
+    def __init__(self, signal, prompt, response, whisper_signal, whisper_msbg, correctness_resp, correctness_pred, score_signal, score_msbg, match_msbg, match_whisper) -> None:
         self.signal = signal
         
         self.prompt = prompt
@@ -70,13 +70,14 @@ class result_json:
         self.whisper_signal = whisper_signal # using whisper on signal
         self.whisper_msbg = whisper_msbg # using msbg and whisper on signal
 
-        self.correctness_resp = correctness_resp
-        self.correctness_whisper = correctness_whisper # difference between prompt and whisper_msbg
+        self.correctness_resp = correctness_resp # correctness of response
+        self.correctness_pred = correctness_pred # difference between prompt and whisper_msbg
 
         self.score_signal = score_signal # difference between prompt and whisper signal
         self.score_msbg = score_msbg # difference between response and msbg_whisper
 
-        self.match_correction = match_correction
+        self.match_msbg = match_msbg # difference between response and prediction
+        self.match_whisper = match_whisper
 
 class System:
     def __init__(self, system) -> None:
