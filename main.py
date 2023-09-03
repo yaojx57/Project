@@ -1,6 +1,6 @@
 import argparse
 
-from test import sort_listeners, sort_system, msbg
+from run import sort_listeners, sort_system, msbg
 
 
 parser = argparse.ArgumentParser()

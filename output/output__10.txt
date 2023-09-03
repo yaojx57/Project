@@ -1,4 +1,0 @@
-Argument: Ratio: 0.5,  Model: medium, Level: avg
-
-  System       RMSE        AVG Actual       AVG Pre       AVG Match     AVG Whisper  
-L0200_avg     0.2447         0.6805         0.5713         0.5833         0.7193     

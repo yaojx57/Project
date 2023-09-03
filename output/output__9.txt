@@ -1,4 +1,0 @@
-Argument: Ratio: 0.5,  Model: base.en, Level: r
-
-  System       RMSE        AVG Actual       AVG Pre       AVG Match     AVG Whisper  
- L0200_r      0.3818         0.6894         0.4344         0.4765         0.6289     

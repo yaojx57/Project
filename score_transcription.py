@@ -232,7 +232,7 @@ def score(ref, hyp):
 
     score = temp[1]/temp[0]
 
-    return score
+    return score*100
 
 if __name__=='__main__':
     print(score('i think you could consider that a brush off', 'i think you could consider that a brush'))
