@@ -1,3 +1,9 @@
 Argument: Ratio: 0.5,  Model: medium, Level: avg
 
   System       RMSE       RMSE_whisper    AVG Whisper    AVG Actual       AVG Pre       AVG Match   
+ E001_avg      34.43          34.01         -10.07          37.19          29.50          25.37     
+ E003_avg      24.91          21.07          -4.25          90.30          78.72          75.73     
+ E005_avg      27.33          28.37          -7.19          20.30          10.40          17.52     
+ E007_avg      30.06          27.07          -6.91          80.54          71.98          67.46     
+ E009_avg      20.89          17.88          -3.08          88.72          79.39          77.62     
+ E010_avg      33.13          28.73          -9.79          76.22          66.73          63.58     

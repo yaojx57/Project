@@ -8,7 +8,7 @@
 #SBATCH --time=24:00:00
 #SBATCH --mail-user=jyao28@sheffield.ac.uk
 #SBATCH --job-name=sys_l_m
-#SBATCH --output=output.%j.sys_l_m.out
+#SBATCH --output=script/%j.sys_l_m.out
 
 
 module load Anaconda3/2019.07
