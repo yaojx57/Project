@@ -8,7 +8,7 @@
 #SBATCH --time=24:00:00
 #SBATCH --mail-user=jyao28@sheffield.ac.uk
 #SBATCH --job-name=lst_avg_m
-#SBATCH --output=script/%j.lst_avg_m.out
+#SBATCH --output=script/out/lst_avg_m.%j.out
 
 module load Anaconda3/2019.07
 module load FFmpeg/4.2.2-GCCcore-9.3.0

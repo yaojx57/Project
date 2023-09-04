@@ -123,7 +123,7 @@ def msbg(path: str=None, level: str='l'):
 
 def sort_listeners(model_name: str=None, ratio: float=0.5, path: str=None, level: str='l'):
 
-    print_now(source_file, 'Argument: Type: \"Listener\" Ratio: {},  Model: {}, Level: {}\n'.format(ratio, model_name, level))
+    print_now(source_file, 'Argument: Type: Listener Ratio: {},  Model: {}, Level: {}\n'.format(ratio, model_name, level))
     print_now(source_file, '{:^10}{:^15}{:^15}{:^15}{:^15}{:^15}{:^15}'.format('Listener', 'RMSE', 'RMSE_whisper','AVG Whisper', 'AVG Actual', 'AVG Pre', 'AVG Match'))
 
 
@@ -153,7 +153,7 @@ def sort_listeners(model_name: str=None, ratio: float=0.5, path: str=None, level
 
 def sort_system(model_name: str=None, ratio: float=0.5, path: str=None, level: str='l'):
 
-    print_now(source_file, 'Argument: Type: \"System\" Ratio: {},  Model: {}, Level: {}\n'.format(ratio, model_name, level))
+    print_now(source_file, 'Argument: Type: System Ratio: {},  Model: {}, Level: {}\n'.format(ratio, model_name, level))
     print_now(source_file, '{:^10}{:^15}{:^15}{:^15}{:^15}{:^15}{:^15}'.format('System', 'RMSE', 'RMSE_whisper','AVG Whisper', 'AVG Actual', 'AVG Pre', 'AVG Match'))
 
 
