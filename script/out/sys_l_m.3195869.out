@@ -1,4 +1,2 @@
 /home/acu21jy/.conda/envs/project/lib/python3.9/site-packages/whisper/timing.py:58: NumbaDeprecationWarning: The 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.
   def backtrace(trace: np.ndarray):
-/var/spool/slurmd/job3176582/slurm_script: line 19: 207325 Killed                  python main.py -whisper s -model medium -path /fastdata/acu21jy -ratio 1.0 -level l
-slurmstepd: error: Detected 1 oom-kill event(s) in StepId=3176582.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.

@@ -1,3 +1,5 @@
-Argument: Type: Listener Ratio: 1.0,  Model: medium, Level: l
+Argument: Type: System Ratio: 1.0,  Model: medium, Level: l
 
- Listener      RMSE       RMSE_whisper    AVG Whisper    AVG Actual       AVG Pre       AVG Match   
+  System       RMSE       RMSE_whisper    AVG Whisper    AVG Actual       AVG Pre       AVG Match   
+  E007_l       29.55          27.21          -6.68          80.50          70.80          67.16     
+  E009_l       23.44          18.79          -4.41          87.80          77.67          75.37     

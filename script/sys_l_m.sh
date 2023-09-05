@@ -7,7 +7,7 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --time=24:00:00
 #SBATCH --mail-user=jyao28@sheffield.ac.uk
-#SBATCH --job-name=sys_l_m
+#SBATCH --job-name=sys_l_m_1.0
 #SBATCH --output=script/out/sys_l_m.%j.out
 
 
