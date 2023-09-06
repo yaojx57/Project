@@ -4,6 +4,7 @@ import whisper
 import json
 import logging
 import random
+import numpy as np
 
 from datetime import datetime
 from score import check_wer, cal_RMSE, avg
@@ -79,7 +80,7 @@ def store_results(speeches: list[Speech], name, model, ratio, path: str=None, le
         matchs_pred.append(match_pred)
         matchs_whisper.append(match_whisper)
     
-    scores_pred = fitting_model.predict(scores_pred)
+    scores_pred = list(fitting_model.predict(np.array(scores_pred).reshape(-1,1)))
     
     rmse = cal_RMSE(actual_scores, scores_pred)
     rmse_whisper = cal_RMSE(actual_scores, scores_whisper)

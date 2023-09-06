@@ -2,3 +2,4 @@ Argument: Type: System Ratio: 0.3,  Model: medium.en, Level: l
 
   System       RMSE       RMSE_whisper    AVG Whisper    AVG Actual       AVG Pre       AVG Match   
   E001_l       33.18          34.07         -13.22          37.46          27.03          23.79     
+  E003_l       26.10          18.75          -6.62          89.79          77.36          74.24     
