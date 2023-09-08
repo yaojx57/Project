@@ -1,0 +1,6 @@
+Argument: Type: Listener Ratio: 0.1,  Model: base.en, Level: l
+
+ Listener      RMSE       RMSE_whisper    AVG Whisper    AVG Actual       AVG Pre       AVG Match   
+ L0200_l       47.60          13.59          -9.45          66.52          62.29          54.04     
+ L0201_l       46.93          22.87         -12.34          75.23          62.86          52.88     
+ L0202_l       33.83          21.10          -3.11          78.24          76.71          66.65     

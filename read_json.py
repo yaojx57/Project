@@ -1,6 +1,40 @@
 import json
 import os
-from speech_info import Speech, listener
+from speech_info import Speech, listener, result_json
+
+def read_result(filename):
+    x = []
+    y = []
+    with open(filename) as json_data:
+        json_dict = json.load(json_data)
+        json_data.close()
+    for i in json_dict.keys():
+        x.append(json_dict[i]['correctness_pred'])
+        y.append(json_dict[i]['correctness_resp'])
+    return x,y
+
+
+def get_train_data(type: str='l', level: str='l'):
+    X = []
+    Y = []
+    if type == 'l':
+        listener_list = ['L0200','L0201','L0202','L0206','L0208','L0209','L0212','L0215','L0216','L0217','L0218','L0219','L0220','L0221','L0222','L0224','L0225','L0227','L0229','L0231','L0235','L0236','L0239','L0240','L0241','L0242','L0243']
+        for li in listener_list:
+            filename = 'past_output/{}_{}_output.json'.format(li, level)
+            x,y = read_result(filename)
+            X.extend(x)
+            Y.extend(y)
+        return X,Y
+    elif type == 's':
+        system_list = ['E001','E003','E005','E007','E009','E010','E013','E018','E019','E021']
+        for li in system_list:
+            filename = 'past_output/{}_{}_output.json'.format(li, level)
+            x,y = read_result(filename)
+            X.extend(x)
+            Y.extend(y)
+        return X,Y
+    else:
+        return False
 
 
 def read_speech(prompt, scene, n_words, hits, listener, system, correctness, response, volume, signal):

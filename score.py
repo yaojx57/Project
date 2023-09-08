@@ -10,7 +10,7 @@ from score_transcription import score
 
 def check_wer(reference, hypothesis):
     error = score(reference, hypothesis)
-    return error
+    return float(error)
 
 
 def cal_RMSE(actual_scores: list, pre_scores: list):
@@ -18,12 +18,12 @@ def cal_RMSE(actual_scores: list, pre_scores: list):
 
     RMSE = math.sqrt(MSE)
     # print('Root Mean Square Error is '+str(RMSE))
-    return RMSE
+    return float(RMSE)
 
 
 def avg(lst):
     if len(lst) !=0:
         avg = sum(lst) / len(lst)
-        return avg
+        return float(avg)
     else:
         return 0
