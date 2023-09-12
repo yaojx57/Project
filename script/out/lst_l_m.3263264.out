@@ -1,0 +1,17 @@
+/home/acu21jy/.conda/envs/project/lib/python3.9/site-packages/whisper/timing.py:58: NumbaDeprecationWarning: The 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.
+  def backtrace(trace: np.ndarray):
+{'test': True, 'msbg': None, 'whisper': 'l', 'ratio': 0.5, 'model': 'medium.en', 'level': 'l', 'path': '/fastdata/acu21jy'}
+Whisper Listener processing!
+Start Process L0200_l
+Traceback (most recent call last):
+  File "/home/acu21jy/Project/main.py", line 52, in <module>
+    main()
+  File "/home/acu21jy/Project/main.py", line 43, in main
+    sort_listeners(model, sample_rate, path, level)
+  File "/home/acu21jy/Project/run.py", line 150, in sort_listeners
+    store_results(li.speeches, name, model, ratio, path, level, type='l')
+  File "/home/acu21jy/Project/run.py", line 85, in store_results
+    rmse = cal_RMSE(actual_scores, scores_pred)
+  File "/home/acu21jy/Project/score.py", line 17, in cal_RMSE
+    MSE = np.square(np.subtract(actual_scores,pre_scores)).mean() 
+ValueError: operands could not be broadcast together with shapes (229,) (5171,) 

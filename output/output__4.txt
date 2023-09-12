@@ -1,0 +1,3 @@
+Argument: Type: System Ratio: 0.5,  Model: medium, Level: l
+
+  System       RMSE       RMSE_whisper    AVG Whisper    AVG Actual       AVG Pre       AVG Match   

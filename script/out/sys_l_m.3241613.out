@@ -1,0 +1,18 @@
+/home/acu21jy/.conda/envs/project/lib/python3.9/site-packages/whisper/timing.py:58: NumbaDeprecationWarning: The 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.
+  def backtrace(trace: np.ndarray):
+{'test': True, 'msbg': None, 'whisper': 's', 'ratio': 0.5, 'model': 'medium', 'level': 'l', 'path': '/fastdata/acu21jy'}
+Whisper System processing!
+Traceback (most recent call last):
+  File "/home/acu21jy/Project/main.py", line 52, in <module>
+    main()
+  File "/home/acu21jy/Project/main.py", line 46, in main
+    sort_system(model, sample_rate, path, level)
+  File "/home/acu21jy/Project/run.py", line 163, in sort_system
+    fitting_model = fitting('s', level)
+  File "/home/acu21jy/Project/fitting.py", line 11, in fitting
+    x, y = get_train_data(type, level)
+  File "/home/acu21jy/Project/read_json.py", line 32, in get_train_data
+    x,y = read_result(filename)
+  File "/home/acu21jy/Project/read_json.py", line 8, in read_result
+    with open(filename) as json_data:
+FileNotFoundError: [Errno 2] No such file or directory: 'past_output/E010_l_output.json'

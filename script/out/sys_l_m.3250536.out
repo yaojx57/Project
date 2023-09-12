@@ -1,0 +1,15 @@
+/home/acu21jy/.conda/envs/project/lib/python3.9/site-packages/whisper/timing.py:58: NumbaDeprecationWarning: The 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.
+  def backtrace(trace: np.ndarray):
+{'test': True, 'msbg': None, 'whisper': 's', 'ratio': 0.5, 'model': 'medium', 'level': 'l', 'path': '/fastdata/acu21jy'}
+Whisper System processing!
+0.5407903334767477
+Start Process E001_l
+Start Process E003_l
+Start Process E005_l
+Start Process E007_l
+Start Process E009_l
+Start Process E010_l
+Start Process E013_l
+Start Process E019_l
+Start Process E021_l
+Start Process E018_l
